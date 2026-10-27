@@ -1,10 +1,10 @@
 # Sports unbound method exhaustion — beyond prior DONE map
 
-Updated: `2026-10-27T00:35:37Z` · Cloud · **£0** · **no synthetic** · **no bookie login automation** · **beats_book=false** · **Catakid untouched** · model estimate · not tips
+Updated: `2026-10-27T00:38:03Z` · Cloud · **£0** · **no synthetic** · **no bookie login automation** · **beats_book=false** · **Catakid untouched** · model estimate · not tips
 
 Parent: [dec1-profit-proveout](./dec1-profit-proveout.md) · Prior map: [betting-methods-exhaustion](./betting-methods-exhaustion.md) · Big-four: [big-four-gold-standard](./big-four-gold-standard.md) · [big-four-data-maxout](./big-four-data-maxout.md) · Soccer hold: [soccer-paper-disable](./soccer-paper-disable.md) · [soccer-1x2-lift](./soccer-1x2-lift.md) · Paper: [paper-bet-autonomy-status](./paper-bet-autonomy-status.md)
 
-Raw: [`../internal/sims/sports-unbound-exhaustion/`](../internal/sims/sports-unbound-exhaustion/) · W1 `run_unbound.py` · W2 `run_unbound_wave2.py` · W3 `run_unbound_wave3.py` · [`wave2/`](../internal/sims/sports-unbound-exhaustion/wave2/) · [`wave3/`](../internal/sims/sports-unbound-exhaustion/wave3/)
+Raw: [`../internal/sims/sports-unbound-exhaustion/`](../internal/sims/sports-unbound-exhaustion/) · W1–W4 runners · [`wave2/`](../internal/sims/sports-unbound-exhaustion/wave2/) · [`wave3/`](../internal/sims/sports-unbound-exhaustion/wave3/) · [`wave4/`](../internal/sims/sports-unbound-exhaustion/wave4/)
 
 Preference unlock: **no method ceiling** (basic → most advanced / undiscovered) under £0 only — this pass invents **past** the Dec 1 DONE / WAIT map without re-opening tipster edges or paid feeds.
 
@@ -412,3 +412,1092 @@ Train sigma breaks frozen; OOS once.
 ## EXHAUST_WAVE3_DONE
 
 Wave 3 unbound inventing complete. No new method clears the paper bar. Keep **WAIT_ON_PAPER** (NBA).
+
+---
+
+## Wave 4 — further NEW families (`2026-10-27T00:38:03Z`)
+
+Overnight continuation. Families **not** scored in waves 1–3. Still £0 · train-frozen WF · **Catakid NBA daemon left alone**.
+
+### Wave-4 verdict
+
+**EXHAUST_WAVE4_DONE.** Eleven additional families scored. **Zero NEW paper enables.** PS-vs-B365 shop, double-chance, long-draw, rolling GD, overround, Elo/eff disagree, sim-vs-p, NFL totals∩ATS corr-cap all fail dual bars. AH CLV ≈ coin process. Mean-reversion-after-wins **hurts**; early stop-win is path-fragile (hits +£40 in 23 bets then stops — not a robust enable). MMA/CS/Valorant reaffirmed non-paper.
+
+| Label | Wave 4 |
+| --- | --- |
+| **NEW_SCORED** | PS vs B365 shop · AH CLV process · double chance · long draw · rolling GD form · overround regime · NBA elo/eff disagree · sim vs p_cover · NFL totals+ATS corr cap · mean-rev/stop-win · other-desk reaffirm |
+| **TRIED_FAIL** | all bankroll WFs above |
+| **PROCESS** | AH open→close CLV ~fair coin |
+| **PAPER_ENABLE** | **none** |
+| **Catakid** | **untouched** |
+
+### 25. Pinnacle/PSH vs B365H shop (NEW)
+
+| Best train | OOS | Dual? |
+| --- | --- | :---: |
+| min_edge 0.15 · train end £153.25 | end £0 · ruin | **no** |
+
+### 26. AH open→close CLV process (NEW)
+
+| n | mean std-CLV home | % open better dec | mean \|line move\| |
+| ---: | ---: | ---: | ---: |
+| 7815 | +0.0019 | 49.7% | 0.096 |
+
+≈ coin — **no beats_book**.
+
+### 27. Double chance 1X/X2 (NEW)
+
+| Best train-frozen | OOS end | Dual? |
+| --- | ---: | :---: |
+| X2 · min_dec 1.35 | £1.16 | **no** |
+
+### 28. Long draw (NEW)
+
+| Best | OOS win% | Dual? |
+| --- | ---: | :---: |
+| B365D ≥ 3.4 | ~21% | **no** |
+
+### 29. Rolling goal-diff form (NEW)
+
+| Best | OOS win% | OOS end | Dual? |
+| --- | ---: | ---: | :---: |
+| \|ΔGD\|≥1.5 · home | 72.9% (thin luck?) | £50.15 | **no** (train also &lt;£70) |
+
+### 30. Low-overround home ML (NEW)
+
+| Best train | OOS | Dual? |
+| --- | --- | :---: |
+| max_ov 1.05 · train £254 | OOS £4.40 | **no** |
+
+### 31. NBA Elo vs efficiency disagreement (NEW)
+
+| Best train | OOS cover | Dual ATS? |
+| --- | ---: | :---: |
+| disagree≥1 · τ=0.08 · signs disagree | 47.1% | **no** |
+
+### 32. sim_home_win_pct vs p_home_cover gap (NEW)
+
+| Best | OOS cover | Dual? |
+| --- | ---: | :---: |
+| gap≥0.08 · trust sim | 49.2% | **no** |
+
+### 33. NFL totals + ATS correlation cap (NEW)
+
+| Best train-frozen | OOS cover | Dual? |
+| --- | ---: | :---: |
+| τ_tot 0.02 · τ_ats 0.05 · max 1/game | 51.5% | **no** |
+
+### 34. Locked NBA mean-reversion + stop-win (NEW ops)
+
+| Lever | End £ | Note |
+| --- | ---: | --- |
+| baseline flat | 139.00 | cite |
+| after 2 wins only | 2.75 | **fail** |
+| after 3 wins only | 76.75 | weak |
+| stop-win +£40 | 175.25 @ n=23 | **fragile** early path — not enable |
+
+### 35. Other desks reaffirm
+
+MMA / CS / Valorant — prior maxout: `beats_book=false` or closes partial; **no** new paper.
+
+### Wave-4 paper decision
+
+| Action | Detail |
+| --- | --- |
+| **NEW enables** | **none** |
+| **Catakid NBA daemon** | **left alone** |
+| **Dec 1** | Wait on NBA paper settles |
+
+### Wave-4 honesty
+
+| Label | Value |
+| --- | --- |
+| synthetic | **false** |
+| beats_book | **false** |
+| OOS peek | **false** |
+| catakid | **untouched** |
+| cost | **£0** |
+
+---
+
+## EXHAUST_WAVE4_DONE
+
+Wave 4 unbound inventing complete. No new method clears the paper bar. Keep **WAIT_ON_PAPER** (NBA).
+
+---
+
+## Wave 6 — league dog specialization (`2026-10-27T00:42:27Z`)
+
+**EXHAUST_WAVE6_DONE.** Families: `wave6_league_dog_specialization`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 6,
+  "family_set": "wave6_league_dog_specialization",
+  "paper_enables": [],
+  "highlights": {
+    "by_league": {
+      "B1": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      },
+      "D1": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      },
+      "D2": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      },
+      "E0": {
+        "clears": false,
+        "params": {
+          "kind": "home_dog",
+          "min_dec": 3.0
+        },
+        "oos_end": 1.75,
+        "train_end": 391.0
+      },
+      "E1": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      },
+      "F1": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      },
+      "F2": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      },
+      "G1": {
+        "clears": false,
+        "params": {
+          "kind": "away_dog",
+          "min_dec": 3.0
+        },
+        "oos_end": 2.0,
+        "train_end": 112.3
+      },
+      "I1": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      },
+      "I2": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      },
+      "N1": {
+        "clears": false,
+        "params": {
+          "kind": "home_dog",
+          "min_dec": 3.0
+        },
+        "oos_end": 1.75,
+        "train_end": 4.0
+      },
+      "P1": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      },
+      "SC0": {
+        "clears": false,
+        "params": {
+          "kind": "away_dog",
+          "min_dec": 2.0
+        },
+        "oos_end": 4.25,
+        "train_end": 4.3
+      },
+      "SP1": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      },
+      "SP2": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      },
+      "T1": {
+        "clears": false,
+        "params": null,
+        "oos_end": null,
+        "train_end": null
+      }
+    },
+    "leagues_dual_clear_draft": [],
+    "policy": "soccer OFF even if dual draft",
+    "generated_at": "2026-10-27T00:42:27Z",
+    "wave": 6,
+    "paper_decision": {
+      "paper_enable": [],
+      "catakid": "untouched",
+      "beats_book": false
+    }
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave6/`](../internal/sims/sports-unbound-exhaustion/wave6/)
+
+## EXHAUST_WAVE6_DONE
+
+---
+
+## Wave 10 — NBA staking ladder/time-stop (`2026-10-27T00:42:33Z`)
+
+**EXHAUST_WAVE10_DONE.** Families: `wave10_nba_staking_ladder`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 10,
+  "family_set": "wave10_nba_staking_ladder",
+  "paper_enables": [],
+  "highlights": {
+    "baseline": {
+      "n": 369,
+      "wins": 160,
+      "win_pct": 0.43360433604336046,
+      "pl": 59.0,
+      "staked": 1845.0,
+      "end": 139.0,
+      "roi_bank": 0.7375,
+      "max_dd": 150.75,
+      "bust": false,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "win_ladder": {
+      "n": 369,
+      "wins": 160,
+      "win_pct": 0.43360433604336046,
+      "pl": 1.6927,
+      "staked": 2056.3823,
+      "end": 81.6927,
+      "roi_bank": 0.021159,
+      "max_dd": 187.3728,
+      "bust": false,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "loss_ladder": {
+      "n": 369,
+      "wins": 160,
+      "win_pct": 0.43360433604336046,
+      "pl": 48.3711,
+      "staked": 2262.429,
+      "end": 128.3711,
+      "roi_bank": 0.604639,
+      "max_dd": 167.9588,
+      "bust": false,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "time_stop_100": {
+      "n": 100,
+      "wins": 46,
+      "win_pct": 0.46,
+      "pl": 119.0,
+      "staked": 500.0,
+      "end": 199.0,
+      "roi_bank": 1.4875,
+      "max_dd": 33.5,
+      "bust": false,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "time_stop_200": {
+      "n": 200,
+      "wins": 93,
+      "win_pct": 0.465,
+      "pl": 129.5,
+      "staked": 1000.0,
+      "end": 209.5,
+      "roi_bank": 1.61875,
+      "max_dd": 48.75,
+      "bust": false,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "per_calendar_year_flat": [
+      {
+        "season": "2015",
+        "n": 8,
+        "wins": 2,
+        "win_pct": 0.25,
+        "pl": -18.75,
+        "staked": 40.0,
+        "end": 61.25,
+        "roi_bank": -0.234375,
+        "max_dd": 18.75,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": false
+      },
+      {
+        "season": "2016",
+        "n": 42,
+        "wins": 20,
+        "win_pct": 0.47619047619047616,
+        "pl": 108.75,
+        "staked": 210.0,
+        "end": 188.75,
+        "roi_bank": 1.359375,
+        "max_dd": 32.75,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      {
+        "season": "2017",
+        "n": 49,
+        "wins": 24,
+        "win_pct": 0.4897959183673469,
+        "pl": 34.0,
+        "staked": 245.0,
+        "end": 114.0,
+        "roi_bank": 0.425,
+        "max_dd": 24.5,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      {
+        "season": "2018",
+        "n": 39,
+        "wins": 18,
+        "win_pct": 0.46153846153846156,
+        "pl": -0.25,
+        "staked": 195.0,
+        "end": 79.75,
+        "roi_bank": -0.003125,
+        "max_dd": 42.25,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": false
+      },
+      {
+        "season": "2019",
+        "n": 47,
+        "wins": 22,
+        "win_pct": 0.46808510638297873,
+        "pl": 3.75,
+        "staked": 235.0,
+        "end": 83.75,
+        "roi_bank": 0.046875,
+        "max_dd": 28.75,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      {
+        "season": "2020",
+        "n": 27,
+        "wins": 9,
+        "win_pct": 0.3333333333333333,
+        "pl": -36.5,
+        "staked": 135.0,
+        "end": 43.5,
+        "roi_bank": -0.45625,
+        "max_dd": 68.5,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": false
+      },
+      {
+        "season": "2021",
+        "n": 90,
+        "wins": 37,
+        "win_pct": 0.4111111111111111,
+        "pl": -14.75,
+        "staked": 450.0,
+        "end": 65.25,
+        "roi_bank": -0.184375,
+        "max_dd": 52.75,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": false
+      },
+      {
+        "season": "2022",
+        "n": 60,
+        "wins": 23,
+        "win_pct": 0.38333333333333336,
+        "pl": -38.25,
+        "staked": 300.0,
+        "end": 41.75,
+        "roi_bank": -0.478125,
+        "max_dd": 79.25,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": false
+      },
+      {
+        "season": "2023",
+        "n": 7,
+        "wins": 5,
+        "win_pct": 0.7142857142857143,
+        "pl": 21.0,
+        "staked": 35.0,
+        "end": 101.0,
+        "roi_bank": 0.2625,
+        "max_dd": 5.0,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      }
+    ]
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave10/`](../internal/sims/sports-unbound-exhaustion/wave10/)
+
+## EXHAUST_WAVE10_DONE
+
+---
+
+## Wave 11 — racing course/jumps process (`2026-10-27T00:42:35Z`)
+
+**EXHAUST_WAVE11_DONE.** Families: `wave11_racing_course_jumps`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 11,
+  "family_set": "wave11_racing_course_jumps",
+  "paper_enables": [],
+  "highlights": {
+    "courses_fade_holds_oos": [],
+    "n_courses_scored": 3,
+    "jumps": {
+      "train_gap": -0.1667,
+      "oos_gap": -0.0342,
+      "n_train": 39,
+      "n_oos": 23
+    },
+    "flat": {
+      "train_gap": -0.0566,
+      "oos_gap": -0.0407,
+      "n_train": 236,
+      "n_oos": 152
+    },
+    "reason": "HARD STOP place/lay \u2014 process only",
+    "generated_at": "2026-10-27T00:42:35Z"
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave11/`](../internal/sims/sports-unbound-exhaustion/wave11/)
+
+## EXHAUST_WAVE11_DONE
+
+---
+
+## Wave 13 — HT lead holds FT process (`2026-10-27T00:42:38Z`)
+
+**EXHAUST_WAVE13_DONE.** Families: `wave13_ht_lead_holds_ft`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 13,
+  "family_set": "wave13_ht_lead_holds_ft",
+  "paper_enables": [],
+  "highlights": {
+    "n_ht_leads": 8871,
+    "hold_rate": 0.7479,
+    "reason": "HARD_STOP no live HT odds for in-play style; process only",
+    "generated_at": "2026-10-27T00:42:38Z",
+    "wave": 13,
+    "paper_decision": {
+      "paper_enable": [],
+      "catakid": "untouched",
+      "beats_book": false
+    }
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave13/`](../internal/sims/sports-unbound-exhaustion/wave13/)
+
+## EXHAUST_WAVE13_DONE
+
+---
+
+## Wave 14 — NBA weekend×density×DD stack (`2026-10-27T00:42:39Z`)
+
+**EXHAUST_WAVE14_DONE.** Families: `wave14_nba_weekend_density_dd_stack`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 14,
+  "family_set": "wave14_nba_weekend_density_dd_stack",
+  "paper_enables": [],
+  "highlights": {
+    "weekend_flat": {
+      "n": 179,
+      "wins": 81,
+      "win_pct": 0.45251396648044695,
+      "pl": 112.25,
+      "staked": 895.0,
+      "end": 192.25,
+      "roi_bank": 1.403125,
+      "max_dd": 91.75,
+      "bust": false,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "weekend_dens1_flat": {
+      "n": 148,
+      "wins": 70,
+      "win_pct": 0.47297297297297297,
+      "pl": 148.0,
+      "staked": 740.0,
+      "end": 228.0,
+      "roi_bank": 1.85,
+      "max_dd": 74.75,
+      "bust": false,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "weekend_dens1_ddscaled": {
+      "n": 148,
+      "wins": 70,
+      "win_pct": 0.47297297297297297,
+      "pl": 25.0678,
+      "staked": 139.9553,
+      "end": 105.0678,
+      "roi_bank": 0.313347,
+      "max_dd": 15.8662,
+      "bust": false,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "note": "stacked ops on frozen NBA \u2014 not new method_id; reinforce wait-on-paper",
+    "generated_at": "2026-10-27T00:42:39Z",
+    "wave": 14
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave14/`](../internal/sims/sports-unbound-exhaustion/wave14/)
+
+## EXHAUST_WAVE14_DONE
+
+---
+
+## Wave 15 — exhaustion audit (`2026-10-27T00:42:41Z`)
+
+**EXHAUST_WAVE15_DONE.** Families: `wave15_exhaustion_audit`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 15,
+  "family_set": "wave15_exhaustion_audit",
+  "paper_enables": [],
+  "highlights": {
+    "totals_files": [
+      "americanfootball_nfl_totals_predictions.json"
+    ],
+    "blocked_\u00a30": [
+      "multi-book live Odds API",
+      "bookie login / steam tape",
+      "NCAAB/NCAAF Odds key",
+      "tennis-data.co.uk (403)",
+      "HT 1X2 / corner / BTTS / place SP odds missing",
+      "NBA ML p_cal dump for \u215b-Kelly/Platt (absent in store)",
+      "optical tracking / paid FTN",
+      "NHL/MLB game totals free closes (not in maxout dumps)",
+      "Valorant/CS free historical ML closes join"
+    ],
+    "remaining_free_ideas_outside_lane": [
+      "arXiv AID_SPORTS transfer after census sibling \u2014 out of this sports-sim lane",
+      "live in-play Markov path paper \u2014 Catakid hours / not overnight cloud invent without priced closes"
+    ],
+    "truly_exhausted_free_sim_lane": true,
+    "generated_at": "2026-10-27T00:42:41Z",
+    "wave": 15
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave15/`](../internal/sims/sports-unbound-exhaustion/wave15/)
+
+## EXHAUST_WAVE15_DONE
+
+---
+
+## Wave 17 — ATP stake blocked (`2026-10-27T00:42:44Z`)
+
+**EXHAUST_WAVE17_DONE.** Families: `wave17_atp_no_bet_dump`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 17,
+  "family_set": "wave17_atp_no_bet_dump",
+  "paper_enables": [],
+  "highlights": {
+    "oos_summary": {
+      "n_seasons": 9,
+      "seasons_profit": 3,
+      "seasons_bust": 1,
+      "pct_seasons_above_80": 0.3333333333333333,
+      "avg_end_bankroll": 62.39,
+      "median_end_bankroll": 75.89,
+      "continuous": {
+        "n_bets": 23,
+        "n_void": 0,
+        "wins": 4,
+        "win_pct": 0.17391304347826086,
+        "pl": -79.21,
+        "end_bankroll": 0.79,
+        "bust": true,
+        "games_to_bust": 23,
+        "max_drawdown": 79.21,
+        "start_bankroll": 80.0,
+        "stake": 5.0
+      }
+    },
+    "reason": "BLOCKED \u2014 no per-bet ATP rows in store for new stake invent; prior Platt/Kelly already scored",
+    "generated_at": "2026-10-27T00:42:44Z",
+    "wave": 17,
+    "paper_decision": {
+      "paper_enable": [],
+      "catakid": "untouched",
+      "beats_book": false
+    }
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave17/`](../internal/sims/sports-unbound-exhaustion/wave17/)
+
+## EXHAUST_WAVE17_DONE
+
+---
+
+## Overnight continuous wrap (`2026-10-27T00:42:46Z`)
+
+Ran waves **5–17** continuously (plus prior 1–4).  
+Wall clock London: `2026-10-27T00:42:25.571300+00:00` → `2026-10-27T00:42:46.128207+00:00`.  
+**NEW paper enables overnight (waves 5+): 0.** Catakid NBA daemon **untouched**. `beats_book=false`.
+
+### OVERNIGHT_SPORTS_DONE
+
+**wave_count_total** = 17 (waves 1–4 prior + 13 continuous).  
+**continuous_waves** = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17].  
+Free+new sim lane treated as exhausted at wave 15 audit (+ trailing blocked/ATP notes).  
+Primary Dec 1 path remains **WAIT_ON_PAPER** (NBA).
+
+---
+
+## Wave 5 — shots/BTTS-proxy/CS/corners (`2026-10-27T00:43:10Z`)
+
+**EXHAUST_WAVE5_DONE.** Families: `wave5_shots_btts_cs_corners`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 5,
+  "family_set": "wave5_shots_btts_cs_corners",
+  "paper_enables": [],
+  "highlights": {
+    "over_from_sot": {
+      "best": {
+        "params": {
+          "min_sot": 5.5
+        },
+        "n_train": 99,
+        "n_oos": 396,
+        "clears_dual_draft": false,
+        "train": {
+          "n": 99,
+          "win_pct": 0.5656565656565656,
+          "end": 19.75,
+          "max_dd": 88.2,
+          "bust": false,
+          "clears_draft": false
+        },
+        "oos": {
+          "n": 396,
+          "win_pct": 0.648989898989899,
+          "end": 165.9,
+          "max_dd": 63.9,
+          "bust": false,
+          "clears_draft": true
+        }
+      },
+      "clears": false
+    },
+    "btts_settle_o25_price_MISSPEC": {
+      "best": {
+        "params": {
+          "min_sot": 5.0
+        },
+        "n_train": 221,
+        "n_oos": 947,
+        "clears_dual_draft": false,
+        "train": {
+          "n": 128,
+          "win_pct": 0.578125,
+          "end": 4.7,
+          "max_dd": 75.3,
+          "bust": false,
+          "clears_draft": false
+        },
+        "oos": {
+          "n": 615,
+          "win_pct": 0.5804878048780487,
+          "end": 0.65,
+          "max_dd": 122.15,
+          "bust": false,
+          "clears_draft": false
+        }
+      },
+      "note": "NEVER enable \u2014 settle\u2260price; scored to show temptation",
+      "clears": false
+    },
+    "clean_sheet_priced_home_ml_MISSPEC": {
+      "best": {
+        "params": {
+          "max_away_scored": 0.7
+        },
+        "n_train": 1988,
+        "n_oos": 5441,
+        "clears_dual_draft": false,
+        "train": {
+          "n": 84,
+          "win_pct": 0.39285714285714285,
+          "end": 2.3,
+          "max_dd": 85.8,
+          "bust": false,
+          "clears_draft": false
+        },
+        "oos": {
+          "n": 55,
+          "win_pct": 0.36363636363636365,
+          "end": 3.65,
+          "max_dd": 77.65,
+          "bust": false,
+          "clears_draft": false
+        }
+      },
+      "note": "CS settle with home ML price \u2014 misspec; process/reject",
+      "clears": false
+    },
+    "corners_process": {
+      "n": 14028,
+      "corr_prior_vs_actual": 0.0711,
+      "paper": "HARD_STOP no corner odds"
+    },
+    "generated_at": "2026-10-27T00:43:10Z",
+    "wave": 5
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave5/`](../internal/sims/sports-unbound-exhaustion/wave5/)
+
+## EXHAUST_WAVE5_DONE
+
+---
+
+## Wave 7 — NBA spread bands + enrich (`2026-10-27T00:43:11Z`)
+
+**EXHAUST_WAVE7_DONE.** Families: `wave7_nba_spread_bands`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 7,
+  "family_set": "wave7_nba_spread_bands",
+  "paper_enables": [],
+  "highlights": {
+    "best": {
+      "clears_ats_proxy": false,
+      "n_train": 327,
+      "n_oos": 562,
+      "edge": 0.08,
+      "band": "small",
+      "train": {
+        "n": 327,
+        "win_pct": 0.5137614678899083,
+        "end": 48.6364,
+        "max_dd": 113.6364,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 250,
+        "win_pct": 0.492,
+        "end": 4.0909,
+        "max_dd": 130.0,
+        "bust": false,
+        "clears_draft": false
+      }
+    },
+    "generated_at": "2026-10-27T00:43:11Z",
+    "wave": 7,
+    "paper_decision": {
+      "paper_enable": [],
+      "catakid": "untouched",
+      "beats_book": false
+    }
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave7/`](../internal/sims/sports-unbound-exhaustion/wave7/)
+
+## EXHAUST_WAVE7_DONE
+
+---
+
+## Wave 8 — NFL weekday totals (`2026-10-27T00:43:12Z`)
+
+**EXHAUST_WAVE8_DONE.** Families: `wave8_nfl_weekday_totals`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 8,
+  "family_set": "wave8_nfl_weekday_totals",
+  "paper_enables": [],
+  "highlights": {
+    "best": {
+      "clears_ats_proxy": false,
+      "n_train": 154,
+      "n_oos": 85,
+      "edge": 0.08,
+      "days": "thu_mon",
+      "train": {
+        "n": 154,
+        "win_pct": 0.525974025974026,
+        "end": 83.1818,
+        "max_dd": 40.0,
+        "bust": false,
+        "clears_draft": true
+      },
+      "oos": {
+        "n": 85,
+        "win_pct": 0.4823529411764706,
+        "end": 46.3636,
+        "max_dd": 65.4545,
+        "bust": false,
+        "clears_draft": false
+      }
+    },
+    "generated_at": "2026-10-27T00:43:12Z",
+    "wave": 8,
+    "paper_decision": {
+      "paper_enable": [],
+      "catakid": "untouched",
+      "beats_book": false
+    }
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave8/`](../internal/sims/sports-unbound-exhaustion/wave8/)
+
+## EXHAUST_WAVE8_DONE
+
+---
+
+## Wave 9 — Max away/draw shop (`2026-10-27T00:43:13Z`)
+
+**EXHAUST_WAVE9_DONE.** Families: `wave9_max_away_draw_shop`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 9,
+  "family_set": "wave9_max_away_draw_shop",
+  "paper_enables": [],
+  "highlights": {
+    "away": {
+      "params": {
+        "min_edge": 0.2
+      },
+      "n_train": 827,
+      "n_oos": 4079,
+      "train": {
+        "n": 44,
+        "win_pct": 0.13636363636363635,
+        "end": 4.5,
+        "max_dd": 83.25,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 377,
+        "win_pct": 0.19363395225464192,
+        "end": 3.95,
+        "max_dd": 344.6,
+        "bust": false,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false
+    },
+    "draw": {
+      "params": {
+        "min_edge": 0.15
+      },
+      "n_train": 1324,
+      "n_oos": 6532,
+      "train": {
+        "n": 95,
+        "win_pct": 0.2,
+        "end": 4.95,
+        "max_dd": 147.4,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 102,
+        "win_pct": 0.21568627450980393,
+        "end": 4.3,
+        "max_dd": 98.6,
+        "bust": false,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false
+    },
+    "policy": "soccer shop proxy \u2014 no enable",
+    "generated_at": "2026-10-27T00:43:13Z",
+    "wave": 9,
+    "paper_decision": {
+      "paper_enable": [],
+      "catakid": "untouched",
+      "beats_book": false
+    }
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave9/`](../internal/sims/sports-unbound-exhaustion/wave9/)
+
+## EXHAUST_WAVE9_DONE
+
+---
+
+## Wave 12 — NBA resid next-game fade (`2026-10-27T00:43:15Z`)
+
+**EXHAUST_WAVE12_DONE.** Families: `wave12_nba_resid_next_fade`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 12,
+  "family_set": "wave12_nba_resid_next_fade",
+  "paper_enables": [],
+  "highlights": {
+    "best": {
+      "clears_ats_proxy": false,
+      "n_train": 70,
+      "n_oos": 160,
+      "min_abs": 6.0,
+      "train": {
+        "n": 70,
+        "win_pct": 0.5285714285714286,
+        "end": 83.1818,
+        "max_dd": 32.7273,
+        "bust": false,
+        "clears_draft": true
+      },
+      "oos": {
+        "n": 82,
+        "win_pct": 0.4268292682926829,
+        "end": 4.0909,
+        "max_dd": 89.0909,
+        "bust": false,
+        "clears_draft": false
+      }
+    },
+    "generated_at": "2026-10-27T00:43:15Z",
+    "wave": 12,
+    "paper_decision": {
+      "paper_enable": [],
+      "catakid": "untouched",
+      "beats_book": false
+    }
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave12/`](../internal/sims/sports-unbound-exhaustion/wave12/)
+
+## EXHAUST_WAVE12_DONE
+
+---
+
+## Wave 16 — soccer rolling CLV home gate (`2026-10-27T00:43:17Z`)
+
+**EXHAUST_WAVE16_DONE.** Families: `wave16_soccer_rolling_clv_home`. Paper enables this wave: **0**. Catakid NBA **untouched**. `beats_book=false`.
+
+```json
+{
+  "wave": 16,
+  "family_set": "wave16_soccer_rolling_clv_home",
+  "paper_enables": [],
+  "highlights": {
+    "best": {
+      "params": {
+        "min_prior": 0.005
+      },
+      "n_train": 338,
+      "n_oos": 2010,
+      "clears_dual_draft": false,
+      "train": {
+        "n": 302,
+        "win_pct": 0.45364238410596025,
+        "end": 3.35,
+        "max_dd": 144.0,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 45,
+        "win_pct": 0.3333333333333333,
+        "end": 0.85,
+        "max_dd": 88.25,
+        "bust": false,
+        "clears_draft": false
+      }
+    },
+    "n": 6956,
+    "policy": "soccer OFF",
+    "generated_at": "2026-10-27T00:43:17Z",
+    "wave": 16,
+    "paper_decision": {
+      "paper_enable": [],
+      "catakid": "untouched",
+      "beats_book": false
+    }
+  }
+}
+```
+
+Raw: [`../internal/sims/sports-unbound-exhaustion/wave16/`](../internal/sims/sports-unbound-exhaustion/wave16/)
+
+## EXHAUST_WAVE16_DONE
+
+
+### Repair note (`2026-10-27T00:43:19Z`)
+
+Re-ran waves [5, 7, 8, 9, 12, 16] after slim_for_doc KeyError. Still **0** paper enables. Catakid untouched.
