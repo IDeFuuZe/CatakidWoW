@@ -1,0 +1,1431 @@
+{
+  "protocol": "sports_unbound_exhaustion",
+  "generated_at": "2026-10-27T00:26:52Z",
+  "constraints": {
+    "cost": "\u00a30",
+    "synthetic": false,
+    "bookie_login_automation": false,
+    "beats_book_default": false,
+    "cloud_only": true,
+    "prior_map": "docs/betting-methods-exhaustion.md"
+  },
+  "nba_locked_n": 369,
+  "nba_staking_structure": {
+    "flat_5_all": {
+      "family": "staking",
+      "note": "baseline locked selection",
+      "n": 369,
+      "wins": 160,
+      "win_pct": 0.43360433604336046,
+      "pl": 59.0,
+      "staked": 1845.0,
+      "end": 139.0,
+      "roi_bank": 0.7375,
+      "max_dd": 150.75,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "pct_1": {
+      "family": "staking",
+      "n": 369,
+      "wins": 160,
+      "win_pct": 0.43360433604336046,
+      "pl": 6.4796,
+      "staked": 345.0967,
+      "end": 86.4796,
+      "roi_bank": 0.080994,
+      "max_dd": 29.1308,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "pct_1_5": {
+      "family": "staking",
+      "n": 369,
+      "wins": 160,
+      "win_pct": 0.43360433604336046,
+      "pl": 7.4171,
+      "staked": 550.6277,
+      "end": 87.4171,
+      "roi_bank": 0.092714,
+      "max_dd": 47.1753,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "dd_scaled_1pct": {
+      "family": "staking_new",
+      "status_intent": "NEW beyond \u00bc/\u00bd/Walters",
+      "n": 343,
+      "wins": 146,
+      "win_pct": 0.42565597667638483,
+      "pl": 4.0739,
+      "staked": 269.2781,
+      "end": 84.0739,
+      "roi_bank": 0.050924,
+      "max_dd": 21.7375,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 26,
+      "clears_draft": true
+    },
+    "vol_target_flat": {
+      "family": "staking_new",
+      "status_intent": "NEW volatility-target stake",
+      "n": 369,
+      "wins": 160,
+      "win_pct": 0.43360433604336046,
+      "pl": 24.5697,
+      "staked": 1761.8631,
+      "end": 104.5697,
+      "roi_bank": 0.307122,
+      "max_dd": 149.1681,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "flat_5_stop_loss_40": {
+      "family": "staking_new",
+      "status_intent": "NEW hard stop-loss gate BR<40",
+      "n": 369,
+      "wins": 160,
+      "win_pct": 0.43360433604336046,
+      "pl": 59.0,
+      "staked": 1845.0,
+      "end": 139.0,
+      "roi_bank": 0.7375,
+      "max_dd": 150.75,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "weekend_only_flat5": {
+      "family": "market_structure_calendar",
+      "status_intent": "NEW hard weekend-only selection (not just slice report)",
+      "n_candidates": 179,
+      "n": 179,
+      "wins": 81,
+      "win_pct": 0.45251396648044695,
+      "pl": 112.25,
+      "staked": 895.0,
+      "end": 192.25,
+      "roi_bank": 1.403125,
+      "max_dd": 96.75,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "weekday_skip_flat5": {
+      "family": "market_structure_calendar",
+      "n_candidates": 190,
+      "n": 178,
+      "wins": 72,
+      "win_pct": 0.4044943820224719,
+      "pl": -77.5,
+      "staked": 890.0,
+      "end": 2.5,
+      "roi_bank": -0.96875,
+      "max_dd": 100.25,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 12,
+      "clears_draft": false
+    },
+    "density_max1_flat5": {
+      "family": "staking_density",
+      "status_intent": "NEW max1/night vs locked max2",
+      "n": 315,
+      "wins": 142,
+      "win_pct": 0.4507936507936508,
+      "pl": 119.75,
+      "staked": 1575.0,
+      "end": 199.75,
+      "roi_bank": 1.496875,
+      "max_dd": 111.25,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "density_max2_flat5": {
+      "family": "staking_density",
+      "n": 365,
+      "wins": 160,
+      "win_pct": 0.4383561643835616,
+      "pl": 79.0,
+      "staked": 1825.0,
+      "end": 159.0,
+      "roi_bank": 0.9875,
+      "max_dd": 140.75,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "mild_dog_plus100_200_flat5": {
+      "family": "market_structure_price",
+      "status_intent": "NEW price-band within locked dogs",
+      "n_candidates": 339,
+      "n": 339,
+      "wins": 153,
+      "win_pct": 0.45132743362831856,
+      "pl": 5.5,
+      "staked": 1695.0,
+      "end": 85.5,
+      "roi_bank": 0.06875,
+      "max_dd": 126.5,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "long_dog_gt200_flat5": {
+      "family": "market_structure_price",
+      "n_candidates": 30,
+      "n": 30,
+      "wins": 7,
+      "win_pct": 0.23333333333333334,
+      "pl": 53.5,
+      "staked": 150.0,
+      "end": 133.5,
+      "roi_bank": 0.66875,
+      "max_dd": 60.0,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 0,
+      "clears_draft": true
+    }
+  },
+  "nba_clv": {
+    "n_quality": 195,
+    "n_train": 118,
+    "n_oos": 77,
+    "sign_note": "gates use standard CLV = fair_close - fair_open (+ = beat close)",
+    "mean_clv_std_all": -0.05777,
+    "pct_plus_clv_std_all": 0.1282,
+    "lookahead_plus_clv_only_INVALID": {
+      "family": "clv",
+      "status": "NEVER_as_selection",
+      "note": "Uses same-game close \u2014 lookahead. Scored only to show temptation bias.",
+      "n": 9,
+      "wins": 4,
+      "win_pct": 0.4444444444444444,
+      "pl": 3.0,
+      "staked": 45.0,
+      "end": 83.0,
+      "roi_bank": 0.0375,
+      "max_dd": 10.0,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "train_band_mean_clv_std": {
+      "131_180": -0.04391,
+      "100_130": -0.053881,
+      "181_250": -0.091743,
+      "251_plus": -0.101184
+    },
+    "keep_bands_train_plus": [],
+    "clv_band_gate_wf": {
+      "family": "clv_new",
+      "status_intent": "NEW CLV-as-selection via train band means (was OUT_OF_SCOPE)",
+      "n_oos_kept": 0,
+      "note": "empty keep_bands \u2192 no bets (honest shutoff when all bands \u2212CLV on train)",
+      "n": 0,
+      "end": 80.0,
+      "bust": false,
+      "clears_draft": false,
+      "pl": 0,
+      "win_pct": null,
+      "max_dd": 0,
+      "skipped": 0,
+      "wins": 0,
+      "staked": 0,
+      "roi_bank": 0
+    },
+    "rolling_prior20_clv_gate": {
+      "family": "clv_new",
+      "status_intent": "NEW causal rolling +CLV process gate",
+      "n_kept": 0,
+      "n": 0,
+      "end": 80.0,
+      "bust": false,
+      "clears_draft": false,
+      "pl": 0,
+      "win_pct": null,
+      "max_dd": 0,
+      "skipped": 0,
+      "wins": 0,
+      "staked": 0,
+      "roi_bank": 0
+    },
+    "process_score": {
+      "beats_book": false,
+      "reason": "mean std-CLV negative (~\u22125.8pp); 12.8% +CLV \u2014 gates shut off or fail; no beats_book flip"
+    }
+  },
+  "ats_totals": {
+    "nfl_totals": {
+      "family": "totals_new",
+      "status_intent": "NEW \u2014 prior map PARTIAL/OUT_OF_SCOPE totals",
+      "n_rows": 7185,
+      "baseline_over_all_flat": {
+        "n": 107,
+        "wins": 48,
+        "win_pct": 0.4485981308411215,
+        "pl": -76.8182,
+        "staked": 535.0,
+        "end": 3.1818,
+        "roi_bank": -0.960227,
+        "max_dd": 79.5455,
+        "bust": false,
+        "games_to_bust": null,
+        "skipped": 1922,
+        "clears_draft": false
+      },
+      "wf_best": {
+        "edge_min": 0.02,
+        "side": "both",
+        "train": {
+          "n": 330,
+          "wins": 165,
+          "win_pct": 0.5,
+          "pl": -75.0,
+          "staked": 1650.0,
+          "end": 5.0,
+          "roi_bank": -0.9375,
+          "max_dd": 154.0909,
+          "bust": false,
+          "games_to_bust": null,
+          "skipped": 3728,
+          "clears_draft": false
+        },
+        "n_train": 4058,
+        "n_oos": 1615,
+        "oos": {
+          "n": 378,
+          "wins": 190,
+          "win_pct": 0.5026455026455027,
+          "pl": -76.3636,
+          "staked": 1890.0,
+          "end": 3.6364,
+          "roi_bank": -0.954545,
+          "max_dd": 142.7273,
+          "bust": false,
+          "games_to_bust": null,
+          "skipped": 1237,
+          "clears_draft": false
+        },
+        "clears_ats_proxy": false
+      }
+    },
+    "nfl_ats_injury_families": {
+      "family": "injuries_free_new",
+      "status_intent": "NEW \u2014 free injury filter as bankroll selection (prior ATS ridge KILL)",
+      "all": {
+        "label": "all",
+        "best": {
+          "edge_min": 0.08,
+          "n_train": 1575,
+          "n_oos": 653,
+          "train": {
+            "n": 399,
+            "wins": 201,
+            "win_pct": 0.5037593984962406,
+            "pl": -76.3636,
+            "staked": 1995.0,
+            "end": 3.6364,
+            "roi_bank": -0.954545,
+            "max_dd": 120.4545,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 1176,
+            "clears_draft": false
+          },
+          "oos": {
+            "n": 653,
+            "wins": 357,
+            "win_pct": 0.5467075038284839,
+            "pl": 142.7273,
+            "staked": 3265.0,
+            "end": 222.7273,
+            "roi_bank": 1.784091,
+            "max_dd": 65.0,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "clears_ats_proxy": false
+        }
+      },
+      "injury_flag_only": {
+        "label": "injury_flag_only",
+        "best": {
+          "edge_min": 0.08,
+          "n_train": 120,
+          "n_oos": 94,
+          "train": {
+            "n": 107,
+            "wins": 48,
+            "win_pct": 0.4485981308411215,
+            "pl": -76.8182,
+            "staked": 535.0,
+            "end": 3.1818,
+            "roi_bank": -0.960227,
+            "max_dd": 90.0,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 13,
+            "clears_draft": false
+          },
+          "oos": {
+            "n": 94,
+            "wins": 47,
+            "win_pct": 0.5,
+            "pl": -21.3636,
+            "staked": 470.0,
+            "end": 58.6364,
+            "roi_bank": -0.267045,
+            "max_dd": 39.5455,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 0,
+            "clears_draft": false
+          },
+          "clears_ats_proxy": false
+        }
+      },
+      "exclude_injury_flag": {
+        "label": "exclude_injury_flag",
+        "best": {
+          "edge_min": 0.08,
+          "n_train": 1455,
+          "n_oos": 559,
+          "train": {
+            "n": 399,
+            "wins": 201,
+            "win_pct": 0.5037593984962406,
+            "pl": -76.3636,
+            "staked": 1995.0,
+            "end": 3.6364,
+            "roi_bank": -0.954545,
+            "max_dd": 120.4545,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 1056,
+            "clears_draft": false
+          },
+          "oos": {
+            "n": 559,
+            "wins": 310,
+            "win_pct": 0.554561717352415,
+            "pl": 164.0909,
+            "staked": 2795.0,
+            "end": 244.0909,
+            "roi_bank": 2.051136,
+            "max_dd": 80.0,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "clears_ats_proxy": false
+        }
+      }
+    },
+    "nba_ats_shrink_ensemble": {
+      "family": "ensemble_new",
+      "status_intent": "NEW shrink-to-market ensemble on free ATS rows",
+      "best": {
+        "w_model": 0.3,
+        "edge_min": 0.08,
+        "n_train": 485,
+        "n_oos": 1348,
+        "train": {
+          "n": 485,
+          "wins": 247,
+          "win_pct": 0.5092783505154639,
+          "pl": -67.2727,
+          "staked": 2425.0,
+          "end": 12.7273,
+          "roi_bank": -0.840909,
+          "max_dd": 143.1818,
+          "bust": false,
+          "games_to_bust": null,
+          "skipped": 0,
+          "clears_draft": false
+        },
+        "oos": {
+          "n": 298,
+          "wins": 148,
+          "win_pct": 0.4966442953020134,
+          "pl": -77.2727,
+          "staked": 1490.0,
+          "end": 2.7273,
+          "roi_bank": -0.965909,
+          "max_dd": 93.6364,
+          "bust": false,
+          "games_to_bust": null,
+          "skipped": 1050,
+          "clears_draft": false
+        },
+        "clears_ats_proxy": false
+      },
+      "n_rows": 7163
+    }
+  },
+  "calibration": {
+    "family": "calibration_new",
+    "status_intent": "NEW temperature scaling (was OUT_OF_SCOPE) on NBA ATS p_cover \u2014 ML p_cal dump absent",
+    "ml_p_cal_dump": "ABSENT \u2014 \u215b-Kelly/Platt-on-NBA locked ML not re-scored here (refuse synthetic p)",
+    "ats_temperature_grid": {
+      "0.7": {
+        "train_brier": 0.2708491602061951,
+        "oos_brier": 0.2751829007790502
+      },
+      "0.85": {
+        "train_brier": 0.265250957811884,
+        "oos_brier": 0.26838780534053247
+      },
+      "1.0": {
+        "train_brier": 0.2616762082423708,
+        "oos_brier": 0.263995983715315
+      },
+      "1.15": {
+        "train_brier": 0.25926949573216485,
+        "oos_brier": 0.2610113296233282
+      },
+      "1.3": {
+        "train_brier": 0.25757708075466057,
+        "oos_brier": 0.25889736304526095
+      },
+      "1.5": {
+        "train_brier": 0.2560044621265983,
+        "oos_brier": 0.25692248465372763
+      }
+    },
+    "chosen_T_train": 1.5,
+    "oos_edge5_path": {
+      "n": 565,
+      "wins": 288,
+      "win_pct": 0.5097345132743363,
+      "pl": -75.9091,
+      "staked": 2825.0,
+      "end": 4.0909,
+      "roi_bank": -0.948864,
+      "max_dd": 167.7273,
+      "bust": false,
+      "games_to_bust": null,
+      "skipped": 1754,
+      "clears_draft": false
+    },
+    "clears_ats_proxy": false
+  },
+  "soccer_clv": {
+    "family": "clv_soccer_new",
+    "status_intent": "NEW \u2014 FD open/close CLV (was OUT_OF_SCOPE Dec1)",
+    "n": 2280,
+    "mean_home_clv_fair": 0.00033,
+    "pct_home_plus_clv": 0.4943,
+    "beats_book": false,
+    "causal_fade_home_shortening_away_dog": {
+      "n": 671,
+      "path": {
+        "n": 290,
+        "wins": 57,
+        "win_pct": 0.19655172413793104,
+        "pl": -76.75,
+        "staked": 1450.0,
+        "end": 3.25,
+        "roi_bank": -0.959375,
+        "max_dd": 218.9,
+        "bust": false,
+        "games_to_bust": null,
+        "skipped": 381,
+        "clears_draft": false
+      },
+      "clears_flood_proxy": false
+    },
+    "note": "Soccer paper remains OFF unless dual-clear; this is process/exhaustion only."
+  },
+  "other_sports": {
+    "family": "other_sports",
+    "maxout_census": {
+      "basketball_wnba": {
+        "status": null,
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "generated_at",
+          "scoreboard_games_found",
+          "pbp_ok",
+          "pbp_fail",
+          "coord_shots_sampled",
+          "sample_games",
+          "path_status",
+          "closes_status",
+          "closes_note",
+          "path_note",
+          "gaps"
+        ]
+      },
+      "college_hard_stops": {
+        "status": null,
+        "beats_book": false,
+        "keys": [
+          "generated_at",
+          "ncaab_espn",
+          "ncaaf_espn",
+          "cfbd_games",
+          "ncaab",
+          "ncaaf",
+          "free_maxed"
+        ]
+      },
+      "cricket_other": {
+        "status": null,
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "generated_at",
+          "cricsheet",
+          "gaps",
+          "free_maxed",
+          "enrichment_level",
+          "synthetic",
+          "cost",
+          "paper_auto_enable"
+        ]
+      },
+      "esports_cs": {
+        "status": null,
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "generated_at",
+          "full_rounds_bytes",
+          "full_rounds_fetch",
+          "team_econ_bytes",
+          "parquet_read",
+          "file_exists",
+          "gaps",
+          "path_decision",
+          "closes_status",
+          "closes_note",
+          "free_maxed"
+        ]
+      },
+      "esports_valorant": {
+        "status": null,
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "generated_at",
+          "source",
+          "download_bytes",
+          "n_feat_maps",
+          "n_scored",
+          "blind_live_path_r12_brier",
+          "blind_elo_brier",
+          "leaky_same_map_sigmoid_brier",
+          "coin_brier",
+          "path_decision",
+          "strength_canonical"
+        ]
+      },
+      "mma_mixed_martial_arts": {
+        "status": null,
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "source",
+          "n_fights",
+          "n_scored",
+          "n_with_close",
+          "elo_brier",
+          "book_brier",
+          "coin_brier",
+          "beats_coin",
+          "beats_book",
+          "closes_join",
+          "path_decision"
+        ]
+      },
+      "prior_wired_status": {
+        "status": null,
+        "beats_book": false,
+        "keys": [
+          "boxing_boxing",
+          "horse_racing",
+          "greyhound",
+          "cricket_international_t20",
+          "esports_dota",
+          "esports_lol",
+          "poker"
+        ]
+      },
+      "soccer_argentina": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_bundesliga": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_bundesliga2": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_china_super": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_efl_league_one": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_efl_league_two": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_england_national": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_j_league": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_la_liga": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_la_liga2": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_liga_mx": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_ligue_1": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_ligue_2": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_mls": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_scotland_champ": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_serie_a": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "soccer_serie_b": {
+        "status": "CLOSED_GAP",
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "league",
+          "n",
+          "n_raw",
+          "enriched_brier",
+          "baseline_elo_brier",
+          "delta_brier_vs_elo",
+          "book_home_brier",
+          "n_with_close",
+          "beats_coin",
+          "beats_book",
+          "closes_join"
+        ]
+      },
+      "tennis_atp": {
+        "status": null,
+        "beats_book": false,
+        "keys": [
+          "odds_key",
+          "source",
+          "n_matches",
+          "n_scored",
+          "n_with_close",
+          "elo_brier",
+          "book_brier",
+          "coin_brier",
+          "beats_coin",
+          "beats_book",
+          "closes_join",
+          "path_decision"
+        ]
+      }
+    },
+    "college_hard_stops": {
+      "generated_at": "2026-10-25T13:36:14.491099+00:00",
+      "ncaab_espn": {
+        "http": 200,
+        "snip": "{\"leagues\":[{\"id\":\"41\",\"uid\":\"s:40~l:41\",\"name\":\"NCAA Men's Basketball\",\"abbreviation\":\"NCAAM\",\"mids"
+      },
+      "ncaaf_espn": {
+        "http": 200,
+        "snip": "{\"leagues\":[{\"id\":\"23\",\"uid\":\"s:20~l:23\",\"name\":\"NCAA - Football\",\"abbreviation\":\"NCAAF\",\"midsizeNam"
+      },
+      "cfbd_games": {
+        "error": "HTTP Error 401: Unauthorized"
+      },
+      "ncaab": {
+        "status": "HARD_STOP",
+        "gaps": [
+          {
+            "gap": "odds_key_desk",
+            "status": "HARD_STOP",
+            "evidence": "adapter stub; no Odds API key wired for NCAAB desk"
+          },
+          {
+            "gap": "espn_schedules_exist",
+            "status": "AVAILABLE_UNUSED",
+            "evidence": "ESPN scoreboard live OK but desk not present \u2014 schedules alone do not unstick without odds key + blind harness"
+          }
+        ]
+      },
+      "ncaaf": {
+        "status": "HARD_STOP",
+        "gaps": [
+          {
+            "gap": "odds_key_desk",
+            "status": "HARD_STOP",
+            "evidence": "desk absent"
+          },
+          {
+            "gap": "cfbd_free_tier",
+            "status": "HARD_STOP_KEY",
+            "evidence": "CFBD returns 401 without free API key; key is free/no-card but not provisioned this pass \u2014 still no Odds key for desk"
+          }
+        ]
+      },
+      "free_maxed": true
+    }
+  },
+  "paper_decision": {
+    "paper_enable": [],
+    "ops_notes": [
+      {
+        "name": "nba_ops::dd_scaled_1pct",
+        "action": "OPS_NOTE_ONLY",
+        "reason": "Improves DD or end on frozen selection \u2014 not a new method_id; Catakid already nba_only+\u00bc-Kelly\u22642/night",
+        "path": {
+          "family": "staking_new",
+          "status_intent": "NEW beyond \u00bc/\u00bd/Walters",
+          "n": 343,
+          "wins": 146,
+          "win_pct": 0.42565597667638483,
+          "pl": 4.0739,
+          "staked": 269.2781,
+          "end": 84.0739,
+          "roi_bank": 0.050924,
+          "max_dd": 21.7375,
+          "bust": false,
+          "games_to_bust": null,
+          "skipped": 26,
+          "clears_draft": true
+        }
+      },
+      {
+        "name": "nba_ops::weekend_only_flat5",
+        "action": "OPS_NOTE_ONLY",
+        "reason": "Improves DD or end on frozen selection \u2014 not a new method_id; Catakid already nba_only+\u00bc-Kelly\u22642/night",
+        "path": {
+          "family": "market_structure_calendar",
+          "status_intent": "NEW hard weekend-only selection (not just slice report)",
+          "n_candidates": 179,
+          "n": 179,
+          "wins": 81,
+          "win_pct": 0.45251396648044695,
+          "pl": 112.25,
+          "staked": 895.0,
+          "end": 192.25,
+          "roi_bank": 1.403125,
+          "max_dd": 96.75,
+          "bust": false,
+          "games_to_bust": null,
+          "skipped": 0,
+          "clears_draft": true
+        }
+      },
+      {
+        "name": "nba_ops::density_max1_flat5",
+        "action": "OPS_NOTE_ONLY",
+        "reason": "Improves DD or end on frozen selection \u2014 not a new method_id; Catakid already nba_only+\u00bc-Kelly\u22642/night",
+        "path": {
+          "family": "staking_density",
+          "status_intent": "NEW max1/night vs locked max2",
+          "n": 315,
+          "wins": 142,
+          "win_pct": 0.4507936507936508,
+          "pl": 119.75,
+          "staked": 1575.0,
+          "end": 199.75,
+          "roi_bank": 1.496875,
+          "max_dd": 111.25,
+          "bust": false,
+          "games_to_bust": null,
+          "skipped": 0,
+          "clears_draft": true
+        }
+      }
+    ],
+    "hold": [
+      {
+        "name": "nba_ops::vol_target_flat",
+        "reason": "no material ops lift vs flat or already covered",
+        "path": {
+          "family": "staking_new",
+          "status_intent": "NEW volatility-target stake",
+          "n": 369,
+          "wins": 160,
+          "win_pct": 0.43360433604336046,
+          "pl": 24.5697,
+          "staked": 1761.8631,
+          "end": 104.5697,
+          "roi_bank": 0.307122,
+          "max_dd": 149.1681,
+          "bust": false,
+          "games_to_bust": null,
+          "skipped": 0,
+          "clears_draft": true
+        }
+      },
+      {
+        "name": "nba_ops::flat_5_stop_loss_40",
+        "reason": "no material ops lift vs flat or already covered",
+        "path": {
+          "family": "staking_new",
+          "status_intent": "NEW hard stop-loss gate BR<40",
+          "n": 369,
+          "wins": 160,
+          "win_pct": 0.43360433604336046,
+          "pl": 59.0,
+          "staked": 1845.0,
+          "end": 139.0,
+          "roi_bank": 0.7375,
+          "max_dd": 150.75,
+          "bust": false,
+          "games_to_bust": null,
+          "skipped": 0,
+          "clears_draft": true
+        }
+      },
+      {
+        "name": "nba_clv::clv_band_gate_wf",
+        "reason": "mean CLV negative / no beats_book flip",
+        "path": {
+          "family": "clv_new",
+          "status_intent": "NEW CLV-as-selection via train band means (was OUT_OF_SCOPE)",
+          "n_oos_kept": 0,
+          "note": "empty keep_bands \u2192 no bets (honest shutoff when all bands \u2212CLV on train)",
+          "n": 0,
+          "end": 80.0,
+          "bust": false,
+          "clears_draft": false,
+          "pl": 0,
+          "win_pct": null,
+          "max_dd": 0,
+          "skipped": 0,
+          "wins": 0,
+          "staked": 0,
+          "roi_bank": 0
+        }
+      },
+      {
+        "name": "nba_clv::rolling_prior20_clv_gate",
+        "reason": "mean CLV negative / no beats_book flip",
+        "path": {
+          "family": "clv_new",
+          "status_intent": "NEW causal rolling +CLV process gate",
+          "n_kept": 0,
+          "n": 0,
+          "end": 80.0,
+          "bust": false,
+          "clears_draft": false,
+          "pl": 0,
+          "win_pct": null,
+          "max_dd": 0,
+          "skipped": 0,
+          "wins": 0,
+          "staked": 0,
+          "roi_bank": 0
+        }
+      },
+      {
+        "name": "nfl_totals::wf_best",
+        "reason": "fails dual-clear ATS proxy",
+        "block": {
+          "edge_min": 0.02,
+          "side": "both",
+          "train": {
+            "n": 330,
+            "wins": 165,
+            "win_pct": 0.5,
+            "pl": -75.0,
+            "staked": 1650.0,
+            "end": 5.0,
+            "roi_bank": -0.9375,
+            "max_dd": 154.0909,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 3728,
+            "clears_draft": false
+          },
+          "n_train": 4058,
+          "n_oos": 1615,
+          "oos": {
+            "n": 378,
+            "wins": 190,
+            "win_pct": 0.5026455026455027,
+            "pl": -76.3636,
+            "staked": 1890.0,
+            "end": 3.6364,
+            "roi_bank": -0.954545,
+            "max_dd": 142.7273,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 1237,
+            "clears_draft": false
+          },
+          "clears_ats_proxy": false
+        }
+      },
+      {
+        "name": "nfl_ats::all",
+        "reason": "fails dual-clear ATS proxy",
+        "block": {
+          "edge_min": 0.08,
+          "n_train": 1575,
+          "n_oos": 653,
+          "train": {
+            "n": 399,
+            "wins": 201,
+            "win_pct": 0.5037593984962406,
+            "pl": -76.3636,
+            "staked": 1995.0,
+            "end": 3.6364,
+            "roi_bank": -0.954545,
+            "max_dd": 120.4545,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 1176,
+            "clears_draft": false
+          },
+          "oos": {
+            "n": 653,
+            "wins": 357,
+            "win_pct": 0.5467075038284839,
+            "pl": 142.7273,
+            "staked": 3265.0,
+            "end": 222.7273,
+            "roi_bank": 1.784091,
+            "max_dd": 65.0,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "clears_ats_proxy": false
+        }
+      },
+      {
+        "name": "nfl_ats::injury_flag_only",
+        "reason": "fails dual-clear ATS proxy",
+        "block": {
+          "edge_min": 0.08,
+          "n_train": 120,
+          "n_oos": 94,
+          "train": {
+            "n": 107,
+            "wins": 48,
+            "win_pct": 0.4485981308411215,
+            "pl": -76.8182,
+            "staked": 535.0,
+            "end": 3.1818,
+            "roi_bank": -0.960227,
+            "max_dd": 90.0,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 13,
+            "clears_draft": false
+          },
+          "oos": {
+            "n": 94,
+            "wins": 47,
+            "win_pct": 0.5,
+            "pl": -21.3636,
+            "staked": 470.0,
+            "end": 58.6364,
+            "roi_bank": -0.267045,
+            "max_dd": 39.5455,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 0,
+            "clears_draft": false
+          },
+          "clears_ats_proxy": false
+        }
+      },
+      {
+        "name": "nfl_ats::exclude_injury_flag",
+        "reason": "fails dual-clear ATS proxy",
+        "block": {
+          "edge_min": 0.08,
+          "n_train": 1455,
+          "n_oos": 559,
+          "train": {
+            "n": 399,
+            "wins": 201,
+            "win_pct": 0.5037593984962406,
+            "pl": -76.3636,
+            "staked": 1995.0,
+            "end": 3.6364,
+            "roi_bank": -0.954545,
+            "max_dd": 120.4545,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 1056,
+            "clears_draft": false
+          },
+          "oos": {
+            "n": 559,
+            "wins": 310,
+            "win_pct": 0.554561717352415,
+            "pl": 164.0909,
+            "staked": 2795.0,
+            "end": 244.0909,
+            "roi_bank": 2.051136,
+            "max_dd": 80.0,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "clears_ats_proxy": false
+        }
+      },
+      {
+        "name": "nba_ats::shrink_ensemble",
+        "reason": "fails dual-clear ATS proxy",
+        "block": {
+          "w_model": 0.3,
+          "edge_min": 0.08,
+          "n_train": 485,
+          "n_oos": 1348,
+          "train": {
+            "n": 485,
+            "wins": 247,
+            "win_pct": 0.5092783505154639,
+            "pl": -67.2727,
+            "staked": 2425.0,
+            "end": 12.7273,
+            "roi_bank": -0.840909,
+            "max_dd": 143.1818,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 0,
+            "clears_draft": false
+          },
+          "oos": {
+            "n": 298,
+            "wins": 148,
+            "win_pct": 0.4966442953020134,
+            "pl": -77.2727,
+            "staked": 1490.0,
+            "end": 2.7273,
+            "roi_bank": -0.965909,
+            "max_dd": 93.6364,
+            "bust": false,
+            "games_to_bust": null,
+            "skipped": 1050,
+            "clears_draft": false
+          },
+          "clears_ats_proxy": false
+        }
+      },
+      {
+        "name": "nba_ats::temperature",
+        "reason": "T fit train-only but ATS paper bar historically not cleared; OOS path alone insufficient without train dual-clear",
+        "path": {
+          "n": 565,
+          "wins": 288,
+          "win_pct": 0.5097345132743363,
+          "pl": -75.9091,
+          "staked": 2825.0,
+          "end": 4.0909,
+          "roi_bank": -0.948864,
+          "max_dd": 167.7273,
+          "bust": false,
+          "games_to_bust": null,
+          "skipped": 1754,
+          "clears_draft": false
+        },
+        "clears_flag": false
+      },
+      {
+        "name": "soccer_clv::fade",
+        "reason": "soccer paper OFF; dual-clear 0 history; process only",
+        "path": {
+          "n": 290,
+          "wins": 57,
+          "win_pct": 0.19655172413793104,
+          "pl": -76.75,
+          "staked": 1450.0,
+          "end": 3.25,
+          "roi_bank": -0.959375,
+          "max_dd": 218.9,
+          "bust": false,
+          "games_to_bust": null,
+          "skipped": 381,
+          "clears_draft": false
+        }
+      }
+    ],
+    "catakid_changes": "none",
+    "beats_book": false,
+    "note": "Already-live nba_dog_conf_edge_8pct_isotonic unchanged. NEW enables only if dual-clear ATS/totals."
+  }
+}

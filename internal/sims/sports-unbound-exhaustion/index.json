@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-10-27T00:26:52Z",
+  "nba_locked_n": 369,
+  "families_scored": [
+    "staking_new",
+    "market_structure",
+    "clv_gates",
+    "calibration_temperature_ats",
+    "ensemble_shrink_ats",
+    "injuries_free_ats",
+    "totals_nfl",
+    "soccer_fd_clv",
+    "other_sports_census"
+  ],
+  "paper_enable_count": 0,
+  "paper_enable": [],
+  "catakid": "untouched",
+  "beats_book": false,
+  "result": "result.json",
+  "ops_notes": [
+    {
+      "name": "nba_ops::dd_scaled_1pct",
+      "action": "OPS_NOTE_ONLY"
+    },
+    {
+      "name": "nba_ops::weekend_only_flat5",
+      "action": "OPS_NOTE_ONLY"
+    },
+    {
+      "name": "nba_ops::density_max1_flat5",
+      "action": "OPS_NOTE_ONLY"
+    }
+  ],
+  "verdict": "EXHAUST_DONE \u2014 no NEW paper enables; ops notes only; wait on NBA paper"
+}
