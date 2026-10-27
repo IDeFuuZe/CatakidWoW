@@ -1,10 +1,10 @@
 # Sports unbound method exhaustion — beyond prior DONE map
 
-Updated: `2026-10-27T00:32:04Z` · Cloud · **£0** · **no synthetic** · **no bookie login automation** · **beats_book=false** · **Catakid untouched** · model estimate · not tips
+Updated: `2026-10-27T00:35:37Z` · Cloud · **£0** · **no synthetic** · **no bookie login automation** · **beats_book=false** · **Catakid untouched** · model estimate · not tips
 
 Parent: [dec1-profit-proveout](./dec1-profit-proveout.md) · Prior map: [betting-methods-exhaustion](./betting-methods-exhaustion.md) · Big-four: [big-four-gold-standard](./big-four-gold-standard.md) · [big-four-data-maxout](./big-four-data-maxout.md) · Soccer hold: [soccer-paper-disable](./soccer-paper-disable.md) · [soccer-1x2-lift](./soccer-1x2-lift.md) · Paper: [paper-bet-autonomy-status](./paper-bet-autonomy-status.md)
 
-Raw: [`../internal/sims/sports-unbound-exhaustion/`](../internal/sims/sports-unbound-exhaustion/) · Wave1: `run_unbound.py` · Wave2: `run_unbound_wave2.py` · [`wave2/`](../internal/sims/sports-unbound-exhaustion/wave2/)
+Raw: [`../internal/sims/sports-unbound-exhaustion/`](../internal/sims/sports-unbound-exhaustion/) · W1 `run_unbound.py` · W2 `run_unbound_wave2.py` · W3 `run_unbound_wave3.py` · [`wave2/`](../internal/sims/sports-unbound-exhaustion/wave2/) · [`wave3/`](../internal/sims/sports-unbound-exhaustion/wave3/)
 
 Preference unlock: **no method ceiling** (basic → most advanced / undiscovered) under £0 only — this pass invents **past** the Dec 1 DONE / WAIT map without re-opening tipster edges or paid feeds.
 
@@ -303,3 +303,112 @@ Signal direction holds OOS as **process only** — not a Catakid method.
 ## EXHAUST_WAVE2_DONE
 
 Wave 2 unbound inventing is complete for this overnight slice. No new method clears a non-structural paper bar. Keep **WAIT_ON_PAPER** (NBA).
+
+---
+
+## Wave 3 — further NEW families (`2026-10-27T00:35:37Z`)
+
+Overnight continuation. Families **not** scored in wave 1/2. Still £0 · train-frozen WF · **Catakid NBA daemon left alone**.
+
+### Wave-3 verdict
+
+**EXHAUST_WAVE3_DONE.** Nine additional families/process stops scored. **Zero NEW paper enables.** Soccer AH / ref-cards / kickoff / MaxH-shop all fail dual draft (or policy-hold). NBA sigma/resid ATS fails dual. Cool-off hurts locked NBA end. Greyhound fade process holds OOS but place/lay **HARD STOP**. Tennis-data.co.uk **403** this pass; cricket/WNBA priced paths still blocked.
+
+| Label | Wave 3 |
+| --- | --- |
+| **NEW_SCORED** | soccer AH · HT process · ref yellows→under · kickoff home buckets · FD MaxH shop proxy · NBA sigma+resid ATS · NBA home/away+cool-off · greyhound short-fav fade · blocked census |
+| **TRIED_FAIL** | AH · ref-under · kickoff · Max shop · sigma ATS · cool-off as improve |
+| **HARD_STOP** | HT odds absent · greyhound place/lay · tennis-data 403 · cricket/WNBA closes |
+| **PAPER_ENABLE** | **none** |
+| **Catakid** | **untouched** |
+
+### 16. Soccer Asian Handicap (NEW)
+
+FD `AHh` + `B365AHH/AHA` multi-league.
+
+| Best train-frozen | OOS end | OOS win% | Dual draft? |
+| --- | ---: | ---: | :---: |
+| longer_side · min_dec 1.70 | £2.65 | 39.5% | **no** (train end £156.70) |
+
+### 17. HT/FT process (NEW) — no HT odds
+
+| Metric | Value |
+| --- | --- |
+| P(FT home \| HT home) | **0.775** |
+| Bankroll paper | **HARD_STOP** — no HT 1X2 odds columns in FD CSVs |
+
+### 18. Referee yellows → under 2.5 (NEW)
+
+| Best train | OOS end | Dual? |
+| --- | ---: | :---: |
+| card_min 3.5 · min_dec 1.70 · train end £114.55 | £4.65 | **no** |
+
+### 19. Kickoff-hour home ML (NEW)
+
+Evening vs early home at B365H — both buckets **fail** OOS dual draft.
+
+### 20. FD MaxH vs B365H shop proxy (NEW)
+
+Archive “best tape” shop (not live multi-book; not executable CLV).
+
+| Best train | OOS end | Dual? |
+| --- | ---: | :---: |
+| Max−B365 ≥ 0.20 · train end £242.70 | £4.80 | **no** |
+
+### 21. NBA ATS sigma tercile + residual filter (NEW)
+
+Train sigma breaks frozen; OOS once.
+
+| Best train | OOS cover | OOS end | Dual ATS? |
+| --- | ---: | ---: | :---: |
+| high-σ · τ=0.0 · train cover ~51.9% | 50.9% | £3.18 | **no** |
+
+### 22. Locked NBA home/away + loss cool-off (NEW ops)
+
+| Slice | End £ |
+| --- | ---: |
+| baseline flat | 139.00 |
+| home picks only | 111.50 |
+| away picks only | 107.50 |
+| cool-off (3 losses → skip 2) | **71.00** (worse) |
+
+**OPS:** cool-off not recommended vs baseline.
+
+### 23. Greyhound short-fav fade process (NEW)
+
+| Filter | Train gap (win−implied) | OOS gap | Paper? |
+| --- | ---: | ---: | --- |
+| field≥6 · fav_dec≤3.0 | **−13.1 pp** | **−13.1 pp** | **HARD STOP** (no place/lay) |
+
+### 24. Blocked census (this pass)
+
+| Item | Status |
+| --- | --- |
+| tennis-data.co.uk | **HTTP 403** — surface re-split deferred |
+| cricket priced bankroll | advance cal only — no free closes |
+| WNBA closes | prior HARD STOP |
+| HT 1X2 odds | absent in FD |
+
+### Wave-3 paper decision
+
+| Action | Detail |
+| --- | --- |
+| **NEW enables** | **none** |
+| **Catakid NBA daemon** | **left alone** |
+| **Dec 1** | Wait on NBA paper settles |
+
+### Wave-3 honesty
+
+| Label | Value |
+| --- | --- |
+| synthetic | **false** |
+| beats_book | **false** |
+| OOS peek | **false** |
+| catakid | **untouched** |
+| cost | **£0** |
+
+---
+
+## EXHAUST_WAVE3_DONE
+
+Wave 3 unbound inventing complete. No new method clears the paper bar. Keep **WAIT_ON_PAPER** (NBA).

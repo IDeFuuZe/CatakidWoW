@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-10-27T00:35:37Z",
+  "wave": 3,
+  "families_scored": [
+    "soccer_ah",
+    "soccer_ht_process",
+    "soccer_ref_cards_under",
+    "soccer_kickoff_home",
+    "fd_max_shop",
+    "nba_sigma_resid_ats",
+    "nba_home_away_cooloff",
+    "greyhound_fade_fav_process",
+    "blocked_census"
+  ],
+  "paper_enable_count": 0,
+  "paper_enable": [],
+  "catakid": "untouched",
+  "beats_book": false,
+  "verdict": "EXHAUST_WAVE3_DONE",
+  "result": "wave3/result.json"
+}
