@@ -1,0 +1,75 @@
+{
+  "family_set": "wave47_nhl_fav_vs_dog_honesty",
+  "always_fav": {
+    "train": {
+      "n": 40,
+      "win_pct": 0.325,
+      "end": 4.0909,
+      "max_dd": 75.9091,
+      "bust": false,
+      "clears_draft": false
+    },
+    "oos": {
+      "n": 44,
+      "win_pct": 0.3409090909090909,
+      "end": 3.1818,
+      "max_dd": 80.9091,
+      "bust": false,
+      "clears_draft": false
+    },
+    "clears_ats_proxy": false,
+    "n_train": 1282,
+    "n_oos": 4337
+  },
+  "always_dog": {
+    "train": {
+      "n": 1282,
+      "win_pct": 0.6521060842433697,
+      "end": 1650.0,
+      "max_dd": 50.9091,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 4337,
+      "win_pct": 0.6294673737606641,
+      "end": 4454.0909,
+      "max_dd": 59.5455,
+      "bust": false,
+      "clears_draft": true
+    },
+    "clears_ats_proxy": true,
+    "n_train": 1282,
+    "n_oos": 4337
+  },
+  "model": {
+    "train": {
+      "n": 1282,
+      "win_pct": 0.656786271450858,
+      "end": 1707.2727,
+      "max_dd": 52.7273,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 4337,
+      "win_pct": 0.6345400046114826,
+      "end": 4664.0909,
+      "max_dd": 60.0,
+      "bust": false,
+      "clears_draft": true
+    },
+    "clears_ats_proxy": true,
+    "n_train": 1282,
+    "n_oos": 4337
+  },
+  "paper_enables": [],
+  "policy": "STRUCTURAL_HOLD reaffirm if dog clears",
+  "generated_at": "2026-10-27T00:53:05Z",
+  "wave": 47,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

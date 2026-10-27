@@ -1,0 +1,20 @@
+{
+  "family_set": "wave55_tennis_surface_process",
+  "status": "ok",
+  "decision": "KEEP_PATH_TRAILS_COIN",
+  "beats_book": false,
+  "n_games": 100,
+  "surface_briers": {
+    "clay": 0.2699013675213675,
+    "hard": 0.2972797385620915
+  },
+  "paper_enables": [],
+  "reason": "HARD_STOP / process \u2014 no historical ML closes join for stake invent; prior ATP stake blocked",
+  "generated_at": "2026-10-27T00:53:20Z",
+  "wave": 55,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

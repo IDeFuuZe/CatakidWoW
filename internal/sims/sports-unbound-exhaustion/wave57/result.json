@@ -1,0 +1,41 @@
+{
+  "family_set": "wave57_exhaustion_reaudit2",
+  "scored_this_batch": [
+    "away_ah",
+    "nba_resid_bands",
+    "nfl_injury_filter",
+    "nhl_fav_honesty",
+    "midweek_under",
+    "pickem_ah",
+    "pinnacle_under_shop",
+    "month_home_dog",
+    "ht_draw_rate_under",
+    "nfl_band_staking",
+    "fouls_under",
+    "tennis_surface_process",
+    "greyhound_stake_blocked"
+  ],
+  "still_blocked_\u00a30": [
+    "multi-book live Odds API / steam / bookie login",
+    "NCAAB/NCAAF Odds key closes",
+    "tennis-data.co.uk 403 / ATP per-bet dump absent",
+    "HT 1X2 / corner / BTTS / place SP odds",
+    "NBA ML p_cal for Platt/\u215b-Kelly",
+    "NHL/MLB totals closes",
+    "Valorant/CS ML closes",
+    "optical / paid FTN",
+    "arXiv AID_SPORTS sibling lane",
+    "in-play Markov without priced closes",
+    "MMA/cricket per-bet re-stake without new free close columns (already scored live-methods)"
+  ],
+  "truly_exhausted_free_sim_lane": true,
+  "paper_enables_total_overnight_note": "wave20 NFL ATS band kept after honesty; wave33 revoked structural",
+  "paper_enables": [],
+  "generated_at": "2026-10-27T00:53:24Z",
+  "wave": 57,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

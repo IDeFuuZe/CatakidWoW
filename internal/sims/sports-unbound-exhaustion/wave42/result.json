@@ -1,0 +1,37 @@
+{
+  "family_set": "wave42_maxah_shop",
+  "best": {
+    "params": {
+      "min_dec": 0.1
+    },
+    "n_train": 242,
+    "n_oos": 704,
+    "clears_dual_draft": true,
+    "train": {
+      "n": 242,
+      "win_pct": 0.49586776859504134,
+      "end": 89.5,
+      "max_dd": 90.3,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 704,
+      "win_pct": 0.5113636363636364,
+      "end": 199.15,
+      "max_dd": 77.3,
+      "bust": false,
+      "clears_draft": true
+    }
+  },
+  "n": 17237,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:49:43Z",
+  "wave": 42,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

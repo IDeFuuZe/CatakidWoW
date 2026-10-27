@@ -1,0 +1,72 @@
+{
+  "family_set": "wave53_nfl_band_staking",
+  "variants": {
+    "flat5": {
+      "train": {
+        "n": 248,
+        "win_pct": 0.5725806451612904,
+        "end": 195.4545,
+        "max_dd": 38.6364,
+        "bust": false,
+        "clears_draft": true
+      },
+      "oos": {
+        "n": 97,
+        "win_pct": 0.5567010309278351,
+        "end": 110.4545,
+        "max_dd": 39.5455,
+        "bust": false,
+        "clears_draft": true
+      },
+      "clears_ats_proxy": true
+    },
+    "qkelly": {
+      "train": {
+        "n": 248,
+        "win_pct": 0.5725806451612904,
+        "end": 223.0574,
+        "max_dd": 40.6337,
+        "bust": false,
+        "clears_draft": true
+      },
+      "oos": {
+        "n": 97,
+        "win_pct": 0.5567010309278351,
+        "end": 89.6702,
+        "max_dd": 29.2122,
+        "bust": false,
+        "clears_draft": true
+      },
+      "clears_ats_proxy": true
+    },
+    "dd_scaled": {
+      "train": {
+        "n": 248,
+        "win_pct": 0.5725806451612904,
+        "end": 97.7074,
+        "max_dd": 6.1297,
+        "bust": false,
+        "clears_draft": true
+      },
+      "oos": {
+        "n": 97,
+        "win_pct": 0.5567010309278351,
+        "end": 84.612,
+        "max_dd": 6.6669,
+        "bust": false,
+        "clears_draft": true
+      },
+      "clears_ats_proxy": true
+    }
+  },
+  "paper_enables": [],
+  "note": "Staking ablations on wave20 filter \u2014 Catakid untouched; NFL ATS paper path separate from NBA daemon",
+  "ops_note_only": true,
+  "generated_at": "2026-10-27T00:53:16Z",
+  "wave": 53,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

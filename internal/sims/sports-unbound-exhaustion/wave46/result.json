@@ -1,0 +1,36 @@
+{
+  "family_set": "wave46_nfl_injury_filter_ats",
+  "best": {
+    "clears_ats_proxy": false,
+    "params": {
+      "mode": "clean",
+      "min_edge": 0.08
+    },
+    "n_train": 1455,
+    "n_oos": 559,
+    "train": {
+      "n": 399,
+      "win_pct": 0.5037593984962406,
+      "end": 3.6364,
+      "max_dd": 120.4545,
+      "bust": false,
+      "clears_draft": false
+    },
+    "oos": {
+      "n": 559,
+      "win_pct": 0.554561717352415,
+      "end": 244.0909,
+      "max_dd": 80.0,
+      "bust": false,
+      "clears_draft": true
+    }
+  },
+  "paper_enables": [],
+  "generated_at": "2026-10-27T00:53:03Z",
+  "wave": 46,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "family_set": "wave34_btts_form_draw",
+  "best": {
+    "params": {},
+    "n_train": 3689,
+    "n_oos": 9516,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 184,
+      "win_pct": 0.23369565217391305,
+      "end": 0.25,
+      "max_dd": 157.0,
+      "bust": false,
+      "clears_draft": false
+    },
+    "oos": {
+      "n": 122,
+      "win_pct": 0.2459016393442623,
+      "end": 0.9,
+      "max_dd": 87.25,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n": 13205,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:49:27Z",
+  "wave": 34,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

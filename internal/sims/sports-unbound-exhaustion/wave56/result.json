@@ -1,0 +1,22 @@
+{
+  "family_set": "wave56_greyhound_stake_blocked",
+  "oos_summary": {
+    "method_id": "disagree_edge_1pct",
+    "n_picks": 50,
+    "win_rate": 0.18,
+    "roi": -0.305,
+    "end_bankroll": 3.75,
+    "clears_bar": false,
+    "enable_recommend": "lift-needed",
+    "beats_book": false
+  },
+  "paper_enables": [],
+  "reason": "Place/EW HARD STOP; win-only already failed enable path \u2014 no new free price",
+  "generated_at": "2026-10-27T00:53:22Z",
+  "wave": 56,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

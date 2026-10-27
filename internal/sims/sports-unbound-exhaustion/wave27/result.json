@@ -1,0 +1,39 @@
+{
+  "family_set": "wave27_nba_clv_selection_gate",
+  "best": {
+    "params": {
+      "mode": "pos",
+      "thr": -0.02
+    },
+    "n_train": 45,
+    "n_oos": 147,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 45,
+      "win_pct": 0.4222222222222222,
+      "end": 61.25,
+      "max_dd": 44.25,
+      "bust": false,
+      "clears_draft": false
+    },
+    "oos": {
+      "n": 95,
+      "win_pct": 0.35789473684210527,
+      "end": 4.25,
+      "max_dd": 76.5,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n_quality": 212,
+  "paper_enables": [],
+  "note": "CLV gate on locked concentrate \u2014 Catakid untouched unless clears dual draft AND policy allow; still no enable without bar",
+  "would_clear": false,
+  "generated_at": "2026-10-27T00:49:14Z",
+  "wave": 27,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

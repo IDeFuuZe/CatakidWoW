@@ -1,0 +1,17 @@
+{
+  "verdict": "OVERNIGHT_SPORTS_DONE",
+  "wave_count_total": 57,
+  "paper_enables_kept": [
+    "wave20_nfl_ats_spread_bands"
+  ],
+  "revoked": [
+    "wave33_nfl_ats_month_STRUCTURAL_HOLD"
+  ],
+  "catakid": "untouched",
+  "beats_book": false,
+  "stop_reason": "truly_exhausted_free_sim_lane_wave57",
+  "london_clock_stop": "05:00",
+  "ended_before_clock": true,
+  "doc": "/cursor/stores/bc-28a8dd7c-8662-49a7-9938-a5fa31b1d070/docs/sports-unbound-exhaustion.md",
+  "generated_at": "2026-10-27T00:53:51Z"
+}

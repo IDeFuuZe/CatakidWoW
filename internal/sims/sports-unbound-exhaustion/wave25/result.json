@@ -1,0 +1,37 @@
+{
+  "family_set": "wave25_soccer_redcard_next",
+  "best": {
+    "params": {
+      "kind": "away_after_home_red"
+    },
+    "n_train": 5068,
+    "n_oos": 14104,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 68,
+      "win_pct": 0.25,
+      "end": 4.55,
+      "max_dd": 102.95,
+      "bust": false,
+      "clears_draft": false
+    },
+    "oos": {
+      "n": 704,
+      "win_pct": 0.3252840909090909,
+      "end": 3.0,
+      "max_dd": 291.0,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n": 57473,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:49:10Z",
+  "wave": 25,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

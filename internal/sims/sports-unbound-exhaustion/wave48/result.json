@@ -1,0 +1,39 @@
+{
+  "family_set": "wave48_midweek_under",
+  "best": {
+    "params": {
+      "days": [
+        3
+      ]
+    },
+    "n_train": 104,
+    "n_oos": 269,
+    "clears_dual_draft": true,
+    "train": {
+      "n": 104,
+      "win_pct": 0.5288461538461539,
+      "end": 112.15,
+      "max_dd": 51.3,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 269,
+      "win_pct": 0.5130111524163569,
+      "end": 121.9,
+      "max_dd": 57.0,
+      "bust": false,
+      "clears_draft": true
+    }
+  },
+  "n": 19292,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:53:07Z",
+  "wave": 48,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

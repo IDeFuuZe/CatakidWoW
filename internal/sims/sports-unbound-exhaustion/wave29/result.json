@@ -1,0 +1,38 @@
+{
+  "family_set": "wave29_soccer_loss_streak",
+  "best": {
+    "params": {
+      "kind": "fade_to_home",
+      "min_losses": 3
+    },
+    "n_train": 357,
+    "n_oos": 865,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 357,
+      "win_pct": 0.5602240896358543,
+      "end": 135.25,
+      "max_dd": 92.65,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 183,
+      "win_pct": 0.5136612021857924,
+      "end": 2.75,
+      "max_dd": 99.1,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n": 2444,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:49:17Z",
+  "wave": 29,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

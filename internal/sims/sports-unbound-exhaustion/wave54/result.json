@@ -1,0 +1,37 @@
+{
+  "family_set": "wave54_fouls_under",
+  "best": {
+    "params": {
+      "min_foul": 10
+    },
+    "n_train": 3222,
+    "n_oos": 12800,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 98,
+      "win_pct": 0.42857142857142855,
+      "end": 4.4,
+      "max_dd": 84.1,
+      "bust": false,
+      "clears_draft": false
+    },
+    "oos": {
+      "n": 309,
+      "win_pct": 0.517799352750809,
+      "end": 4.0,
+      "max_dd": 94.6,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n": 18340,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:53:18Z",
+  "wave": 54,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

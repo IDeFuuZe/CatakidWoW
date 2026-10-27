@@ -1,0 +1,40 @@
+{
+  "family_set": "wave51_month_home_dog",
+  "best": {
+    "params": {
+      "months": [
+        2,
+        3
+      ]
+    },
+    "n_train": 463,
+    "n_oos": 1810,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 463,
+      "win_pct": 0.3045356371490281,
+      "end": 91.65,
+      "max_dd": 172.65,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 271,
+      "win_pct": 0.3025830258302583,
+      "end": 4.6,
+      "max_dd": 179.95,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n": 11215,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:53:12Z",
+  "wave": 51,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}
