@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-27T00:38:03Z",
+  "wave": 4,
+  "families_scored": [
+    "ps_vs_b365_shop",
+    "ah_clv_process",
+    "soccer_double_chance",
+    "soccer_long_draw",
+    "soccer_rolling_gd",
+    "soccer_overround",
+    "nba_elo_eff_disagree",
+    "nba_sim_vs_pcover",
+    "nfl_totals_ats_corr_cap",
+    "nba_meanrev_stopwin",
+    "other_desks_reaffirm"
+  ],
+  "paper_enable_count": 0,
+  "paper_enable": [],
+  "catakid": "untouched",
+  "beats_book": false,
+  "verdict": "EXHAUST_WAVE4_DONE",
+  "result": "wave4/result.json"
+}
