@@ -1,0 +1,67 @@
+{
+  "experiment": "EXP-S1",
+  "generated_at": "2026-10-27T10:58Z",
+  "disclaimer": "Paper / hypothetical only \u2014 model estimate \u2014 not tips \u2014 never auto-wager. No real book placement. Empty slate when no real upcoming fixtures.",
+  "paper_only": true,
+  "auto_wager": false,
+  "ledger": "fixtures/ledger_nba_synth_close.jsonl",
+  "pass_rule": "Scoreboard shows %+CLV, mean_CLV_pp, n_with_clv, rlm_proxy, note_lag_h even if n_with_clv=0. Fail: CLV selection gate.",
+  "result": "PASS",
+  "fail_reasons": [],
+  "nba_clv_scoreboard": {
+    "sport_filter": "NBA settled only",
+    "n_settled_nba": 2,
+    "n_open_nba": 0,
+    "n_voided_nba": 0,
+    "n_with_clv": 1,
+    "pct_plus_clv": 100.0,
+    "mean_CLV_pp": 6.345553180996216,
+    "rlm_proxy_counts": {
+      "shorten_into_pick": 1,
+      "missing_close": 1
+    },
+    "note_lag_h_n": 2,
+    "note_lag_h_mean": 4.75,
+    "clv_selection_gate": false,
+    "rows": [
+      {
+        "bet_id": "pb_syn_nba_1",
+        "method_id": "nba_dog_conf_edge_8pct_isotonic",
+        "event_id": "syn1",
+        "pick": "away",
+        "open_pick_decimal": 2.2,
+        "close_pick_decimal": 1.9,
+        "fair_open": 0.4430379746835443,
+        "fair_close": 0.5064935064935064,
+        "clv_pp": 6.345553180996216,
+        "rlm_proxy": "shorten_into_pick",
+        "note_lag_h": 5.5,
+        "pl": 4.5,
+        "won": true,
+        "selection_gate": false
+      },
+      {
+        "bet_id": "pb_syn_nba_2",
+        "method_id": "nba_dog_conf_edge_8pct_isotonic",
+        "event_id": "syn2",
+        "pick": "home",
+        "open_pick_decimal": 2.1,
+        "close_pick_decimal": null,
+        "fair_open": 0.46153846153846156,
+        "fair_close": null,
+        "clv_pp": null,
+        "rlm_proxy": null,
+        "note_lag_h": 4.0,
+        "pl": -5.0,
+        "won": false,
+        "selection_gate": false
+      }
+    ]
+  },
+  "embeds": {
+    "S3": "rlm_proxy",
+    "S4": "note_lag_h"
+  },
+  "catakid_daemon_touched": false,
+  "beats_book_claim": false
+}

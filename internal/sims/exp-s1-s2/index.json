@@ -1,0 +1,19 @@
+{
+  "experiment": "EXP-S1+EXP-S2",
+  "generated_at": "2026-10-27T10:58Z",
+  "results": {
+    "EXP-S1": "PASS",
+    "EXP-S2": "PASS"
+  },
+  "token": "EXP_S1_S2_DONE",
+  "catakid_daemon_touched": false,
+  "docs": "docs/exp-s1-s2-results.md",
+  "artifacts": [
+    "exp_s1_scoreboard.json",
+    "exp_s1_scoreboard_synth.json",
+    "exp_s2_injury_skip.json",
+    "run_exp_s1_scoreboard.py",
+    "run_exp_s2_injury_skip.py",
+    "fixtures/"
+  ]
+}

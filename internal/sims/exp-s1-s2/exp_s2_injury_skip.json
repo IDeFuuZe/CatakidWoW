@@ -1,0 +1,315 @@
+{
+  "experiment": "EXP-S2",
+  "generated_at": "2026-10-27T10:58Z",
+  "disclaimer": "Paper / hypothetical only \u2014 model estimate \u2014 not tips \u2014 never auto-wager. Injury skip is defense/process only \u2014 not an edge / ATS claim.",
+  "paper_only": true,
+  "auto_wager": false,
+  "pass_rule": "Dry-run on one saved HTML/PDF or live skip logged. Fail: ATS edge claim.",
+  "result": "PASS",
+  "html_index": "/workspace/internal/sims/exp-s1-s2/fixtures/official-nba-injury-index-2026-10-27.html",
+  "pdf_fixture": "/workspace/internal/sims/exp-s1-s2/fixtures/Injury-Report_2026-10-27_06_45AM.pdf",
+  "n_pdf_links_on_index": 28,
+  "pdf_links_sample": [
+    "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-27_12_00AM.pdf",
+    "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-27_12_15AM.pdf",
+    "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-27_12_30AM.pdf",
+    "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-27_12_45AM.pdf",
+    "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-10-27_01_00AM.pdf"
+  ],
+  "n_injury_rows_parsed": 28,
+  "n_out_total": 21,
+  "n_out_stars": 6,
+  "out_stars": [
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "DET@NYK",
+      "team": "Detroit Pistons",
+      "player": "Jalen Duren",
+      "status": "Out",
+      "reason": "Injury/Illness - Right Hamstring Strain"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "",
+      "team": "",
+      "player": "Jose Alvarado",
+      "status": "Out",
+      "reason": "Injury/Illness - Left Ankle Sprain SAC@SAS Sacramento Kings"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "SAC@SAS",
+      "team": "Left Calf Strain",
+      "player": "Keegan Murray",
+      "status": "Out",
+      "reason": "Injury/Illness - Left Capsulitis"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "",
+      "team": "",
+      "player": "Ben Simmons",
+      "status": "Out",
+      "reason": "Injury/Illness - Right Achilles Tendon Repair / Surgery San Antonio Spurs"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "",
+      "team": "",
+      "player": "Tobias Harris",
+      "status": "Out",
+      "reason": "Injury/Illness - Left Calf Strain"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "",
+      "team": "",
+      "player": "Shaedon Sharpe",
+      "status": "Out",
+      "reason": "Injury/Illness - Right Meniscus Surgery"
+    }
+  ],
+  "dry_run_scenarios": [
+    {
+      "player": "Jalen Duren",
+      "is_star": true,
+      "note_status": "Questionable",
+      "tip_minus_90m_status": "Out",
+      "flipped_to_out_after_note": true,
+      "action": "injury_out_after_note",
+      "stake_action": "void_or_shrink",
+      "ats_edge_claim": false,
+      "scenario": "star_out_after_note",
+      "matchup": "DET@NYK",
+      "team": "Detroit Pistons",
+      "reason": "Injury/Illness - Right Hamstring Strain",
+      "source_pdf": "Injury-Report_2026-10-27_06_45AM.pdf"
+    },
+    {
+      "player": "Jose Alvarado",
+      "is_star": true,
+      "note_status": "Questionable",
+      "tip_minus_90m_status": "Out",
+      "flipped_to_out_after_note": true,
+      "action": "injury_out_after_note",
+      "stake_action": "void_or_shrink",
+      "ats_edge_claim": false,
+      "scenario": "star_out_after_note",
+      "matchup": "",
+      "team": "",
+      "reason": "Injury/Illness - Left Ankle Sprain SAC@SAS Sacramento Kings",
+      "source_pdf": "Injury-Report_2026-10-27_06_45AM.pdf"
+    },
+    {
+      "player": "Keegan Murray",
+      "is_star": true,
+      "note_status": "Questionable",
+      "tip_minus_90m_status": "Out",
+      "flipped_to_out_after_note": true,
+      "action": "injury_out_after_note",
+      "stake_action": "void_or_shrink",
+      "ats_edge_claim": false,
+      "scenario": "star_out_after_note",
+      "matchup": "SAC@SAS",
+      "team": "Left Calf Strain",
+      "reason": "Injury/Illness - Left Capsulitis",
+      "source_pdf": "Injury-Report_2026-10-27_06_45AM.pdf"
+    },
+    {
+      "player": "Ben Simmons",
+      "is_star": true,
+      "note_status": "Questionable",
+      "tip_minus_90m_status": "Out",
+      "flipped_to_out_after_note": true,
+      "action": "injury_out_after_note",
+      "stake_action": "void_or_shrink",
+      "ats_edge_claim": false,
+      "scenario": "star_out_after_note",
+      "matchup": "",
+      "team": "",
+      "reason": "Injury/Illness - Right Achilles Tendon Repair / Surgery San Antonio Spurs",
+      "source_pdf": "Injury-Report_2026-10-27_06_45AM.pdf"
+    },
+    {
+      "player": "Tobias Harris",
+      "is_star": true,
+      "note_status": "Questionable",
+      "tip_minus_90m_status": "Out",
+      "flipped_to_out_after_note": true,
+      "action": "injury_out_after_note",
+      "stake_action": "void_or_shrink",
+      "ats_edge_claim": false,
+      "scenario": "star_out_after_note",
+      "matchup": "",
+      "team": "",
+      "reason": "Injury/Illness - Left Calf Strain",
+      "source_pdf": "Injury-Report_2026-10-27_06_45AM.pdf"
+    },
+    {
+      "player": "Ausar Thompson",
+      "is_star": true,
+      "note_status": "Questionable",
+      "tip_minus_90m_status": "Questionable",
+      "flipped_to_out_after_note": false,
+      "action": "no_skip",
+      "stake_action": "keep",
+      "ats_edge_claim": false,
+      "scenario": "no_flip_control",
+      "matchup": "",
+      "team": "",
+      "reason": "Injury/Illness - Right Ankle Sprain New York Knicks",
+      "source_pdf": "Injury-Report_2026-10-27_06_45AM.pdf"
+    },
+    {
+      "player": "Scoot Henderson",
+      "is_star": true,
+      "note_status": "Questionable",
+      "tip_minus_90m_status": "Questionable",
+      "flipped_to_out_after_note": false,
+      "action": "no_skip",
+      "stake_action": "keep",
+      "ats_edge_claim": false,
+      "scenario": "no_flip_control",
+      "matchup": "POR@LAL",
+      "team": "Concussion Protocol",
+      "reason": "Injury/Illness - Left Ankle Soreness",
+      "source_pdf": "Injury-Report_2026-10-27_06_45AM.pdf"
+    },
+    {
+      "player": "Walker Kessler",
+      "is_star": true,
+      "note_status": "Available",
+      "tip_minus_90m_status": "Available",
+      "flipped_to_out_after_note": false,
+      "action": "no_skip",
+      "stake_action": "keep",
+      "ats_edge_claim": false,
+      "scenario": "no_flip_control",
+      "matchup": "",
+      "team": "",
+      "reason": "Injury/Illness - Left Finger Splint",
+      "source_pdf": "Injury-Report_2026-10-27_06_45AM.pdf"
+    }
+  ],
+  "n_skip_logged": 5,
+  "skip_reason_code": "injury_out_after_note",
+  "ats_edge_claim": false,
+  "catakid_daemon_touched": false,
+  "filter_only": true,
+  "parsed_rows_sample": [
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "BKN@BOS",
+      "team": "Brooklyn Nets",
+      "player": "Tyler Bilodeau",
+      "status": "Out",
+      "reason": "G League - Two- Way"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "BKN@BOS",
+      "team": "Way",
+      "player": "Joshua Jefferson",
+      "status": "Out",
+      "reason": "G League - On Assignment"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "BKN@BOS",
+      "team": "On Assignment",
+      "player": "Grant Nelson",
+      "status": "Out",
+      "reason": "G League - Two- Way"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "BKN@BOS",
+      "team": "Way",
+      "player": "Drake Powell",
+      "status": "Out",
+      "reason": "G League - On Assignment"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "BKN@BOS",
+      "team": "On Assignment",
+      "player": "Ben Saraf",
+      "status": "Out",
+      "reason": "G League - On"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "DET@NYK",
+      "team": "Detroit Pistons",
+      "player": "Jalen Duren",
+      "status": "Out",
+      "reason": "Injury/Illness - Right Hamstring Strain"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "DET@NYK",
+      "team": "Right Hamstring Strain",
+      "player": "Elijah Harkless",
+      "status": "Questionable",
+      "reason": "G League - Two- Way"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "DET@NYK",
+      "team": "Way",
+      "player": "Isaiah Joe",
+      "status": "Questionable",
+      "reason": "Injury/Illness - Right Hip Contusion"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "DET@NYK",
+      "team": "Right Hip Contusion",
+      "player": "Isaac Jones",
+      "status": "Questionable",
+      "reason": "G League - Two- Way"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "",
+      "team": "",
+      "player": "Ugonna Onyenso",
+      "status": "Out",
+      "reason": "G League - Two- Way"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "",
+      "team": "",
+      "player": "Ausar Thompson",
+      "status": "Questionable",
+      "reason": "Injury/Illness - Right Ankle Sprain New York Knicks"
+    },
+    {
+      "game_date": "10/27/26",
+      "game_time_et": "06:45 AM",
+      "matchup": "",
+      "team": "",
+      "player": "Jose Alvarado",
+      "status": "Out",
+      "reason": "Injury/Illness - Left Ankle Sprain SAC@SAS Sacramento Kings"
+    }
+  ]
+}
