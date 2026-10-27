@@ -1,0 +1,1136 @@
+{
+  "protocol": "sports_unbound_exhaustion_wave2",
+  "generated_at": "2026-10-27T00:32:04Z",
+  "constraints": {
+    "cost": "\u00a30",
+    "synthetic": false,
+    "catakid": "untouched",
+    "bookie_login_automation": false,
+    "beats_book_default": false,
+    "oos_peek": false
+  },
+  "nba_ml_extras": {
+    "season_regime": {
+      "family": "market_structure_season",
+      "early_flat5": {
+        "n": 216,
+        "wins": 98,
+        "win_pct": 0.4537037037037037,
+        "pl": 4.5,
+        "staked": 1080.0,
+        "end": 84.5,
+        "roi_bank": 0.05625,
+        "max_dd": 105.0,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "late_flat5": {
+        "n": 153,
+        "wins": 62,
+        "win_pct": 0.40522875816993464,
+        "pl": 54.5,
+        "staked": 765.0,
+        "end": 134.5,
+        "roi_bank": 0.68125,
+        "max_dd": 77.25,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      }
+    },
+    "anti_martingale_press": {
+      "family": "staking_progression_new",
+      "status_intent": "NEW win-press / anti-martingale on locked dogs",
+      "n": 369,
+      "wins": 160,
+      "win_pct": 0.43360433604336046,
+      "pl": 45.7239,
+      "staked": 2224.0645,
+      "end": 125.7239,
+      "roi_bank": 0.571549,
+      "max_dd": 202.0,
+      "bust": false,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "loss_press_cap4x": {
+      "family": "staking_progression_new",
+      "status_intent": "NEW loss-press (expect fail)",
+      "n": 369,
+      "wins": 160,
+      "win_pct": 0.43360433604336046,
+      "pl": 65.75,
+      "staked": 4015.0,
+      "end": 145.75,
+      "roi_bank": 0.821875,
+      "max_dd": 317.25,
+      "bust": false,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "bootstrap_weekend_flat5": {
+      "family": "honesty_meta_new",
+      "status_intent": "NEW bootstrap CI on weekend-only path",
+      "n": 179,
+      "point_end": 192.25,
+      "p05": 2.25,
+      "p50": 185.5,
+      "p95": 407.5,
+      "frac_below_70": 0.235,
+      "frac_bust_proxy_end0": 0.005
+    },
+    "rlm_proxy_slices": {
+      "family": "market_structure_rlm_new",
+      "status_intent": "NEW reverse-line-movement slice (ex-post; not causal select)",
+      "note": "Ex-post slices \u2014 NOT a causal gate (same-game close). Process only.",
+      "n_against": 166,
+      "against_flat5": {
+        "n": 120,
+        "wins": 45,
+        "win_pct": 0.375,
+        "pl": -78.75,
+        "staked": 600.0,
+        "end": 1.25,
+        "roi_bank": -0.984375,
+        "max_dd": 91.5,
+        "bust": false,
+        "skipped": 46,
+        "clears_draft": false
+      },
+      "n_with": 25,
+      "with_flat5": {
+        "n": 25,
+        "wins": 11,
+        "win_pct": 0.44,
+        "pl": 0.5,
+        "staked": 125.0,
+        "end": 80.5,
+        "roi_bank": 0.00625,
+        "max_dd": 18.25,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      }
+    },
+    "month_structure": {
+      "family": "market_structure_calendar_new",
+      "by_month": {
+        "1": {
+          "n": 69,
+          "wins": 35,
+          "win_pct": 0.5072463768115942,
+          "pl": 43.0,
+          "staked": 345.0,
+          "end": 123.0,
+          "roi_bank": 0.5375,
+          "max_dd": 35.25,
+          "bust": false,
+          "skipped": 0,
+          "clears_draft": true
+        },
+        "2": {
+          "n": 43,
+          "wins": 18,
+          "win_pct": 0.4186046511627907,
+          "pl": -14.25,
+          "staked": 215.0,
+          "end": 65.75,
+          "roi_bank": -0.178125,
+          "max_dd": 46.0,
+          "bust": false,
+          "skipped": 0,
+          "clears_draft": false
+        },
+        "3": {
+          "n": 58,
+          "wins": 25,
+          "win_pct": 0.43103448275862066,
+          "pl": 83.25,
+          "staked": 290.0,
+          "end": 163.25,
+          "roi_bank": 1.040625,
+          "max_dd": 49.75,
+          "bust": false,
+          "skipped": 0,
+          "clears_draft": true
+        },
+        "4": {
+          "n": 46,
+          "wins": 19,
+          "win_pct": 0.41304347826086957,
+          "pl": 15.5,
+          "staked": 230.0,
+          "end": 95.5,
+          "roi_bank": 0.19375,
+          "max_dd": 20.0,
+          "bust": false,
+          "skipped": 0,
+          "clears_draft": true
+        },
+        "10": {
+          "n": 29,
+          "wins": 10,
+          "win_pct": 0.3448275862068966,
+          "pl": -33.25,
+          "staked": 145.0,
+          "end": 46.75,
+          "roi_bank": -0.415625,
+          "max_dd": 34.0,
+          "bust": false,
+          "skipped": 0,
+          "clears_draft": false
+        },
+        "11": {
+          "n": 52,
+          "wins": 23,
+          "win_pct": 0.4423076923076923,
+          "pl": -6.0,
+          "staked": 260.0,
+          "end": 74.0,
+          "roi_bank": -0.075,
+          "max_dd": 37.75,
+          "bust": false,
+          "skipped": 0,
+          "clears_draft": false
+        },
+        "12": {
+          "n": 66,
+          "wins": 30,
+          "win_pct": 0.45454545454545453,
+          "pl": 0.75,
+          "staked": 330.0,
+          "end": 80.75,
+          "roi_bank": 0.009375,
+          "max_dd": 44.25,
+          "bust": false,
+          "skipped": 0,
+          "clears_draft": true
+        }
+      }
+    }
+  },
+  "shannon_nba_ats": {
+    "family": "staking_shannon_new",
+    "status_intent": "NEW Shannon/fortune stake on NBA ATS p_cover edge",
+    "best": {
+      "edge_min": 0.08,
+      "shannon_frac": 0.25,
+      "n_train": 1142,
+      "n_oos": 2174,
+      "train": {
+        "n": 1142,
+        "wins": 577,
+        "win_pct": 0.5052539404553416,
+        "pl": -51.0904,
+        "staked": 1330.3545,
+        "end": 28.9096,
+        "roi_bank": -0.63863,
+        "max_dd": 55.1657,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 1212,
+        "wins": 610,
+        "win_pct": 0.5033003300330033,
+        "pl": -55.189,
+        "staked": 1513.8739,
+        "end": 24.811,
+        "roi_bank": -0.689863,
+        "max_dd": 80.5301,
+        "bust": false,
+        "skipped": 962,
+        "clears_draft": false
+      },
+      "clears_ats_proxy": false
+    }
+  },
+  "nhl_ats": {
+    "label": "nhl_ats_wave2",
+    "best": {
+      "mode": "model",
+      "edge_min": 0.0,
+      "n_train": 1282,
+      "n_oos": 4337,
+      "train": {
+        "n": 1282,
+        "wins": 842,
+        "win_pct": 0.656786271450858,
+        "pl": 1627.2727,
+        "staked": 6410.0,
+        "end": 1707.2727,
+        "roi_bank": 20.340909,
+        "max_dd": 52.7273,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "oos": {
+        "n": 4337,
+        "wins": 2752,
+        "win_pct": 0.6345400046114826,
+        "pl": 4584.0909,
+        "staked": 21685.0,
+        "end": 4664.0909,
+        "roi_bank": 57.301136,
+        "max_dd": 60.0,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "clears_ats_proxy": true
+    },
+    "structural_dog_illusion": {
+      "always_dog_dual_clear": true,
+      "always_dog_train": {
+        "n": 1282,
+        "wins": 836,
+        "win_pct": 0.6521060842433697,
+        "pl": 1570.0,
+        "staked": 6410.0,
+        "end": 1650.0,
+        "roi_bank": 19.625,
+        "max_dd": 50.9091,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "always_dog_oos": {
+        "n": 4337,
+        "wins": 2730,
+        "win_pct": 0.6294673737606641,
+        "pl": 4374.0909,
+        "staked": 21685.0,
+        "end": 4454.0909,
+        "roi_bank": 54.676136,
+        "max_dd": 59.5455,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "model_dog_pick_rate_oos": 0.9732534009684114,
+      "refuse_paper": true,
+      "cite": "docs/big-four-data-maxout.md puck/run-line ceiling"
+    }
+  },
+  "mlb_ats": {
+    "label": "mlb_ats_wave2",
+    "best": {
+      "mode": "model",
+      "edge_min": 0.0,
+      "n_train": 5157,
+      "n_oos": 6265,
+      "train": {
+        "n": 5157,
+        "wins": 2937,
+        "win_pct": 0.5695171611401978,
+        "pl": 2250.0,
+        "staked": 25785.0,
+        "end": 2330.0,
+        "roi_bank": 28.125,
+        "max_dd": 168.6364,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "oos": {
+        "n": 6265,
+        "wins": 3653,
+        "win_pct": 0.5830806065442937,
+        "pl": 3544.5455,
+        "staked": 31325.0,
+        "end": 3624.5455,
+        "roi_bank": 44.306818,
+        "max_dd": 128.6364,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "clears_ats_proxy": true
+    },
+    "structural_dog_illusion": {
+      "always_dog_dual_clear": true,
+      "always_dog_train": {
+        "n": 5155,
+        "wins": 2924,
+        "win_pct": 0.5672162948593599,
+        "pl": 2135.9091,
+        "staked": 25775.0,
+        "end": 2215.9091,
+        "roi_bank": 26.698864,
+        "max_dd": 153.6364,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "always_dog_oos": {
+        "n": 6256,
+        "wins": 3594,
+        "win_pct": 0.5744884910485933,
+        "pl": 3026.3636,
+        "staked": 31280.0,
+        "end": 3106.3636,
+        "roi_bank": 37.829545,
+        "max_dd": 104.5455,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "model_dog_pick_rate_oos": 0.9262569832402234,
+      "refuse_paper": true,
+      "cite": "docs/big-four-data-maxout.md puck/run-line ceiling"
+    }
+  },
+  "nba_rest_ats": {
+    "label": "nba_rest_ats_wave2",
+    "best": {
+      "mode": "rest_home_plus",
+      "edge_min": 0.08,
+      "n_train": 382,
+      "n_oos": 632,
+      "train": {
+        "n": 382,
+        "wins": 201,
+        "win_pct": 0.5261780104712042,
+        "pl": 8.6364,
+        "staked": 1910.0,
+        "end": 88.6364,
+        "roi_bank": 0.107955,
+        "max_dd": 106.8182,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "oos": {
+        "n": 191,
+        "wins": 92,
+        "win_pct": 0.4816753926701571,
+        "pl": -76.8182,
+        "staked": 955.0,
+        "end": 3.1818,
+        "roi_bank": -0.960227,
+        "max_dd": 104.0909,
+        "bust": false,
+        "skipped": 441,
+        "clears_draft": false
+      },
+      "clears_ats_proxy": false
+    }
+  },
+  "nfl_qb_pers_ats": {
+    "label": "nfl_qb_pers_ats_wave2",
+    "best": {
+      "mode": "model",
+      "edge_min": 0.08,
+      "n_train": 1575,
+      "n_oos": 653,
+      "train": {
+        "n": 399,
+        "wins": 201,
+        "win_pct": 0.5037593984962406,
+        "pl": -76.3636,
+        "staked": 1995.0,
+        "end": 3.6364,
+        "roi_bank": -0.954545,
+        "max_dd": 120.4545,
+        "bust": false,
+        "skipped": 1176,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 653,
+        "wins": 357,
+        "win_pct": 0.5467075038284839,
+        "pl": 142.7273,
+        "staked": 3265.0,
+        "end": 222.7273,
+        "roi_bank": 1.784091,
+        "max_dd": 65.0,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "clears_ats_proxy": false
+    }
+  },
+  "soccer_ou25": {
+    "family": "soccer_ou25_new",
+    "status_intent": "NEW soccer OU 2.5 rolling-rate (multi-league FD)",
+    "n_rows": 4031,
+    "leagues": [
+      "D1",
+      "E0",
+      "F1",
+      "I1",
+      "SP1"
+    ],
+    "process_clv_over_mean_fc_minus_fo": -0.003654,
+    "pct_open_over_beats_close": 0.3448,
+    "best": {
+      "thresh": 0.52,
+      "min_dec": 1.7,
+      "side": "under",
+      "n_train": 210,
+      "n_oos": 504,
+      "train": {
+        "n": 210,
+        "wins": 103,
+        "win_pct": 0.49047619047619045,
+        "pl": 10.4,
+        "staked": 1050.0,
+        "end": 90.4,
+        "roi_bank": 0.13,
+        "max_dd": 69.9,
+        "bust": false,
+        "skipped": 0,
+        "clears_draft": true
+      },
+      "oos": {
+        "n": 474,
+        "wins": 229,
+        "win_pct": 0.4831223628691983,
+        "pl": -77.75,
+        "staked": 2370.0,
+        "end": 2.25,
+        "roi_bank": -0.971875,
+        "max_dd": 152.0,
+        "bust": false,
+        "skipped": 30,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false
+    },
+    "beats_book": false
+  },
+  "soccer_dnb_book": {
+    "family": "soccer_dnb_book_new",
+    "status_intent": "NEW DNB favorite using book prices only (no model edge)",
+    "n": 2345,
+    "train": {
+      "n": 845,
+      "wins": 609,
+      "win_pct": 0.7207100591715976,
+      "pl": -78.0153,
+      "staked": 4225.0,
+      "end": 1.9847,
+      "roi_bank": -0.975191,
+      "max_dd": 140.6465,
+      "bust": false,
+      "skipped": 464,
+      "clears_draft": false
+    },
+    "oos": {
+      "n": 1036,
+      "wins": 760,
+      "win_pct": 0.7335907335907336,
+      "pl": 199.8667,
+      "staked": 5180.0,
+      "end": 279.8667,
+      "roi_bank": 2.498333,
+      "max_dd": 82.0841,
+      "bust": false,
+      "skipped": 0,
+      "clears_draft": true
+    },
+    "clears_dual_draft": false,
+    "note": "Expect fail \u2014 betting book favorite DNB is not +EV inventing",
+    "beats_book": false
+  },
+  "racing_fade_fav": {
+    "family": "racing_fade_fav_process_new",
+    "status_intent": "NEW horse short-fav fade process (no place SP \u2014 no bankroll paper)",
+    "best": {
+      "min_field": 8,
+      "max_fav_dec": 2.5,
+      "train": {
+        "n": 48,
+        "fav_win_pct": 0.3333,
+        "mean_sp_implied": 0.5087,
+        "fav_wins_minus_implied": -0.1753
+      },
+      "oos": {
+        "n": 27,
+        "fav_win_pct": 0.3704,
+        "mean_sp_implied": 0.5044,
+        "fav_wins_minus_implied": -0.1341
+      },
+      "fade_signal_train": true,
+      "fade_holds_oos": true
+    },
+    "paper_enable_possible": false,
+    "reason": "No free fixed place/lay price \u2014 HARD STOP for bankroll path (prior map)",
+    "beats_book": false
+  },
+  "structural_dog_honesty": {
+    "nhl_always_dog_cover_full": null,
+    "note": "Puck-line/run-line \u00b11.5 always-dog cover >>52.4% is structural base-rate, not juice-beat after vig path unless dual-clear bankroll \u2014 prior maxout ceiling."
+  },
+  "paper_decision": {
+    "paper_enable": [],
+    "hold": [
+      {
+        "name": "nhl_ats_wave2",
+        "reason": "STRUCTURAL_HOLD \u2014 always-dog also dual-clears / model\u2248dog picker; not juice-beat (gold-standard ceiling)",
+        "block": {
+          "mode": "model",
+          "edge_min": 0.0,
+          "n_train": 1282,
+          "n_oos": 4337,
+          "train": {
+            "n": 1282,
+            "wins": 842,
+            "win_pct": 0.656786271450858,
+            "pl": 1627.2727,
+            "staked": 6410.0,
+            "end": 1707.2727,
+            "roi_bank": 20.340909,
+            "max_dd": 52.7273,
+            "bust": false,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "oos": {
+            "n": 4337,
+            "wins": 2752,
+            "win_pct": 0.6345400046114826,
+            "pl": 4584.0909,
+            "staked": 21685.0,
+            "end": 4664.0909,
+            "roi_bank": 57.301136,
+            "max_dd": 60.0,
+            "bust": false,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "clears_ats_proxy": true,
+          "structural": {
+            "always_dog_dual_clear": true,
+            "always_dog_train": {
+              "n": 1282,
+              "wins": 836,
+              "win_pct": 0.6521060842433697,
+              "pl": 1570.0,
+              "staked": 6410.0,
+              "end": 1650.0,
+              "roi_bank": 19.625,
+              "max_dd": 50.9091,
+              "bust": false,
+              "skipped": 0,
+              "clears_draft": true
+            },
+            "always_dog_oos": {
+              "n": 4337,
+              "wins": 2730,
+              "win_pct": 0.6294673737606641,
+              "pl": 4374.0909,
+              "staked": 21685.0,
+              "end": 4454.0909,
+              "roi_bank": 54.676136,
+              "max_dd": 59.5455,
+              "bust": false,
+              "skipped": 0,
+              "clears_draft": true
+            },
+            "model_dog_pick_rate_oos": 0.9732534009684114,
+            "refuse_paper": true,
+            "cite": "docs/big-four-data-maxout.md puck/run-line ceiling"
+          }
+        }
+      },
+      {
+        "name": "mlb_ats_wave2",
+        "reason": "STRUCTURAL_HOLD \u2014 always-dog also dual-clears / model\u2248dog picker; not juice-beat (gold-standard ceiling)",
+        "block": {
+          "mode": "model",
+          "edge_min": 0.0,
+          "n_train": 5157,
+          "n_oos": 6265,
+          "train": {
+            "n": 5157,
+            "wins": 2937,
+            "win_pct": 0.5695171611401978,
+            "pl": 2250.0,
+            "staked": 25785.0,
+            "end": 2330.0,
+            "roi_bank": 28.125,
+            "max_dd": 168.6364,
+            "bust": false,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "oos": {
+            "n": 6265,
+            "wins": 3653,
+            "win_pct": 0.5830806065442937,
+            "pl": 3544.5455,
+            "staked": 31325.0,
+            "end": 3624.5455,
+            "roi_bank": 44.306818,
+            "max_dd": 128.6364,
+            "bust": false,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "clears_ats_proxy": true,
+          "structural": {
+            "always_dog_dual_clear": true,
+            "always_dog_train": {
+              "n": 5155,
+              "wins": 2924,
+              "win_pct": 0.5672162948593599,
+              "pl": 2135.9091,
+              "staked": 25775.0,
+              "end": 2215.9091,
+              "roi_bank": 26.698864,
+              "max_dd": 153.6364,
+              "bust": false,
+              "skipped": 0,
+              "clears_draft": true
+            },
+            "always_dog_oos": {
+              "n": 6256,
+              "wins": 3594,
+              "win_pct": 0.5744884910485933,
+              "pl": 3026.3636,
+              "staked": 31280.0,
+              "end": 3106.3636,
+              "roi_bank": 37.829545,
+              "max_dd": 104.5455,
+              "bust": false,
+              "skipped": 0,
+              "clears_draft": true
+            },
+            "model_dog_pick_rate_oos": 0.9262569832402234,
+            "refuse_paper": true,
+            "cite": "docs/big-four-data-maxout.md puck/run-line ceiling"
+          }
+        }
+      },
+      {
+        "name": "nba_rest_ats_wave2",
+        "reason": "fails dual-clear ATS proxy",
+        "block": {
+          "mode": "rest_home_plus",
+          "edge_min": 0.08,
+          "n_train": 382,
+          "n_oos": 632,
+          "train": {
+            "n": 382,
+            "wins": 201,
+            "win_pct": 0.5261780104712042,
+            "pl": 8.6364,
+            "staked": 1910.0,
+            "end": 88.6364,
+            "roi_bank": 0.107955,
+            "max_dd": 106.8182,
+            "bust": false,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "oos": {
+            "n": 191,
+            "wins": 92,
+            "win_pct": 0.4816753926701571,
+            "pl": -76.8182,
+            "staked": 955.0,
+            "end": 3.1818,
+            "roi_bank": -0.960227,
+            "max_dd": 104.0909,
+            "bust": false,
+            "skipped": 441,
+            "clears_draft": false
+          },
+          "clears_ats_proxy": false
+        }
+      },
+      {
+        "name": "nfl_qb_pers_ats_wave2",
+        "reason": "fails dual-clear ATS proxy",
+        "block": {
+          "mode": "model",
+          "edge_min": 0.08,
+          "n_train": 1575,
+          "n_oos": 653,
+          "train": {
+            "n": 399,
+            "wins": 201,
+            "win_pct": 0.5037593984962406,
+            "pl": -76.3636,
+            "staked": 1995.0,
+            "end": 3.6364,
+            "roi_bank": -0.954545,
+            "max_dd": 120.4545,
+            "bust": false,
+            "skipped": 1176,
+            "clears_draft": false
+          },
+          "oos": {
+            "n": 653,
+            "wins": 357,
+            "win_pct": 0.5467075038284839,
+            "pl": 142.7273,
+            "staked": 3265.0,
+            "end": 222.7273,
+            "roi_bank": 1.784091,
+            "max_dd": 65.0,
+            "bust": false,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "clears_ats_proxy": false
+        }
+      },
+      {
+        "name": "shannon_nba_ats",
+        "reason": "fails dual-clear",
+        "block": {
+          "edge_min": 0.08,
+          "shannon_frac": 0.25,
+          "n_train": 1142,
+          "n_oos": 2174,
+          "train": {
+            "n": 1142,
+            "wins": 577,
+            "win_pct": 0.5052539404553416,
+            "pl": -51.0904,
+            "staked": 1330.3545,
+            "end": 28.9096,
+            "roi_bank": -0.63863,
+            "max_dd": 55.1657,
+            "bust": false,
+            "skipped": 0,
+            "clears_draft": false
+          },
+          "oos": {
+            "n": 1212,
+            "wins": 610,
+            "win_pct": 0.5033003300330033,
+            "pl": -55.189,
+            "staked": 1513.8739,
+            "end": 24.811,
+            "roi_bank": -0.689863,
+            "max_dd": 80.5301,
+            "bust": false,
+            "skipped": 962,
+            "clears_draft": false
+          },
+          "clears_ats_proxy": false
+        }
+      },
+      {
+        "name": "soccer_ou25",
+        "reason": "fails dual draft",
+        "block": {
+          "thresh": 0.52,
+          "min_dec": 1.7,
+          "side": "under",
+          "n_train": 210,
+          "n_oos": 504,
+          "train": {
+            "n": 210,
+            "wins": 103,
+            "win_pct": 0.49047619047619045,
+            "pl": 10.4,
+            "staked": 1050.0,
+            "end": 90.4,
+            "roi_bank": 0.13,
+            "max_dd": 69.9,
+            "bust": false,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "oos": {
+            "n": 474,
+            "wins": 229,
+            "win_pct": 0.4831223628691983,
+            "pl": -77.75,
+            "staked": 2370.0,
+            "end": 2.25,
+            "roi_bank": -0.971875,
+            "max_dd": 152.0,
+            "bust": false,
+            "skipped": 30,
+            "clears_draft": false
+          },
+          "clears_dual_draft": false
+        }
+      },
+      {
+        "name": "soccer_dnb_book",
+        "reason": "fails",
+        "block": {
+          "family": "soccer_dnb_book_new",
+          "status_intent": "NEW DNB favorite using book prices only (no model edge)",
+          "n": 2345,
+          "train": {
+            "n": 845,
+            "wins": 609,
+            "win_pct": 0.7207100591715976,
+            "pl": -78.0153,
+            "staked": 4225.0,
+            "end": 1.9847,
+            "roi_bank": -0.975191,
+            "max_dd": 140.6465,
+            "bust": false,
+            "skipped": 464,
+            "clears_draft": false
+          },
+          "oos": {
+            "n": 1036,
+            "wins": 760,
+            "win_pct": 0.7335907335907336,
+            "pl": 199.8667,
+            "staked": 5180.0,
+            "end": 279.8667,
+            "roi_bank": 2.498333,
+            "max_dd": 82.0841,
+            "bust": false,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "clears_dual_draft": false,
+          "note": "Expect fail \u2014 betting book favorite DNB is not +EV inventing",
+          "beats_book": false
+        }
+      },
+      {
+        "name": "racing_fade_fav",
+        "reason": "HARD STOP no place/lay price",
+        "block": {
+          "family": "racing_fade_fav_process_new",
+          "status_intent": "NEW horse short-fav fade process (no place SP \u2014 no bankroll paper)",
+          "best": {
+            "min_field": 8,
+            "max_fav_dec": 2.5,
+            "train": {
+              "n": 48,
+              "fav_win_pct": 0.3333,
+              "mean_sp_implied": 0.5087,
+              "fav_wins_minus_implied": -0.1753
+            },
+            "oos": {
+              "n": 27,
+              "fav_win_pct": 0.3704,
+              "mean_sp_implied": 0.5044,
+              "fav_wins_minus_implied": -0.1341
+            },
+            "fade_signal_train": true,
+            "fade_holds_oos": true
+          },
+          "paper_enable_possible": false,
+          "reason": "No free fixed place/lay price \u2014 HARD STOP for bankroll path (prior map)",
+          "beats_book": false
+        }
+      },
+      {
+        "name": "nba_progressions",
+        "reason": "staking toys on locked selection \u2014 ops only / fail",
+        "block": {
+          "season_regime": {
+            "family": "market_structure_season",
+            "early_flat5": {
+              "n": 216,
+              "wins": 98,
+              "win_pct": 0.4537037037037037,
+              "pl": 4.5,
+              "staked": 1080.0,
+              "end": 84.5,
+              "roi_bank": 0.05625,
+              "max_dd": 105.0,
+              "bust": false,
+              "skipped": 0,
+              "clears_draft": true
+            },
+            "late_flat5": {
+              "n": 153,
+              "wins": 62,
+              "win_pct": 0.40522875816993464,
+              "pl": 54.5,
+              "staked": 765.0,
+              "end": 134.5,
+              "roi_bank": 0.68125,
+              "max_dd": 77.25,
+              "bust": false,
+              "skipped": 0,
+              "clears_draft": true
+            }
+          },
+          "anti_martingale_press": {
+            "family": "staking_progression_new",
+            "status_intent": "NEW win-press / anti-martingale on locked dogs",
+            "n": 369,
+            "wins": 160,
+            "win_pct": 0.43360433604336046,
+            "pl": 45.7239,
+            "staked": 2224.0645,
+            "end": 125.7239,
+            "roi_bank": 0.571549,
+            "max_dd": 202.0,
+            "bust": false,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "loss_press_cap4x": {
+            "family": "staking_progression_new",
+            "status_intent": "NEW loss-press (expect fail)",
+            "n": 369,
+            "wins": 160,
+            "win_pct": 0.43360433604336046,
+            "pl": 65.75,
+            "staked": 4015.0,
+            "end": 145.75,
+            "roi_bank": 0.821875,
+            "max_dd": 317.25,
+            "bust": false,
+            "skipped": 0,
+            "clears_draft": true
+          },
+          "bootstrap_weekend_flat5": {
+            "family": "honesty_meta_new",
+            "status_intent": "NEW bootstrap CI on weekend-only path",
+            "n": 179,
+            "point_end": 192.25,
+            "p05": 2.25,
+            "p50": 185.5,
+            "p95": 407.5,
+            "frac_below_70": 0.235,
+            "frac_bust_proxy_end0": 0.005
+          },
+          "rlm_proxy_slices": {
+            "family": "market_structure_rlm_new",
+            "status_intent": "NEW reverse-line-movement slice (ex-post; not causal select)",
+            "note": "Ex-post slices \u2014 NOT a causal gate (same-game close). Process only.",
+            "n_against": 166,
+            "against_flat5": {
+              "n": 120,
+              "wins": 45,
+              "win_pct": 0.375,
+              "pl": -78.75,
+              "staked": 600.0,
+              "end": 1.25,
+              "roi_bank": -0.984375,
+              "max_dd": 91.5,
+              "bust": false,
+              "skipped": 46,
+              "clears_draft": false
+            },
+            "n_with": 25,
+            "with_flat5": {
+              "n": 25,
+              "wins": 11,
+              "win_pct": 0.44,
+              "pl": 0.5,
+              "staked": 125.0,
+              "end": 80.5,
+              "roi_bank": 0.00625,
+              "max_dd": 18.25,
+              "bust": false,
+              "skipped": 0,
+              "clears_draft": true
+            }
+          },
+          "month_structure": {
+            "family": "market_structure_calendar_new",
+            "by_month": {
+              "1": {
+                "n": 69,
+                "wins": 35,
+                "win_pct": 0.5072463768115942,
+                "pl": 43.0,
+                "staked": 345.0,
+                "end": 123.0,
+                "roi_bank": 0.5375,
+                "max_dd": 35.25,
+                "bust": false,
+                "skipped": 0,
+                "clears_draft": true
+              },
+              "2": {
+                "n": 43,
+                "wins": 18,
+                "win_pct": 0.4186046511627907,
+                "pl": -14.25,
+                "staked": 215.0,
+                "end": 65.75,
+                "roi_bank": -0.178125,
+                "max_dd": 46.0,
+                "bust": false,
+                "skipped": 0,
+                "clears_draft": false
+              },
+              "3": {
+                "n": 58,
+                "wins": 25,
+                "win_pct": 0.43103448275862066,
+                "pl": 83.25,
+                "staked": 290.0,
+                "end": 163.25,
+                "roi_bank": 1.040625,
+                "max_dd": 49.75,
+                "bust": false,
+                "skipped": 0,
+                "clears_draft": true
+              },
+              "4": {
+                "n": 46,
+                "wins": 19,
+                "win_pct": 0.41304347826086957,
+                "pl": 15.5,
+                "staked": 230.0,
+                "end": 95.5,
+                "roi_bank": 0.19375,
+                "max_dd": 20.0,
+                "bust": false,
+                "skipped": 0,
+                "clears_draft": true
+              },
+              "10": {
+                "n": 29,
+                "wins": 10,
+                "win_pct": 0.3448275862068966,
+                "pl": -33.25,
+                "staked": 145.0,
+                "end": 46.75,
+                "roi_bank": -0.415625,
+                "max_dd": 34.0,
+                "bust": false,
+                "skipped": 0,
+                "clears_draft": false
+              },
+              "11": {
+                "n": 52,
+                "wins": 23,
+                "win_pct": 0.4423076923076923,
+                "pl": -6.0,
+                "staked": 260.0,
+                "end": 74.0,
+                "roi_bank": -0.075,
+                "max_dd": 37.75,
+                "bust": false,
+                "skipped": 0,
+                "clears_draft": false
+              },
+              "12": {
+                "n": 66,
+                "wins": 30,
+                "win_pct": 0.45454545454545453,
+                "pl": 0.75,
+                "staked": 330.0,
+                "end": 80.75,
+                "roi_bank": 0.009375,
+                "max_dd": 44.25,
+                "bust": false,
+                "skipped": 0,
+                "clears_draft": true
+              }
+            }
+          }
+        }
+      }
+    ],
+    "catakid_changes": "none \u2014 leave NBA daemon alone",
+    "beats_book": false
+  }
+}

@@ -1,10 +1,10 @@
 # Sports unbound method exhaustion — beyond prior DONE map
 
-Updated: `2026-10-27T00:26:52Z` · Cloud · **£0** · **no synthetic** · **no bookie login automation** · **beats_book=false** · **Catakid untouched** · model estimate · not tips
+Updated: `2026-10-27T00:32:04Z` · Cloud · **£0** · **no synthetic** · **no bookie login automation** · **beats_book=false** · **Catakid untouched** · model estimate · not tips
 
 Parent: [dec1-profit-proveout](./dec1-profit-proveout.md) · Prior map: [betting-methods-exhaustion](./betting-methods-exhaustion.md) · Big-four: [big-four-gold-standard](./big-four-gold-standard.md) · [big-four-data-maxout](./big-four-data-maxout.md) · Soccer hold: [soccer-paper-disable](./soccer-paper-disable.md) · [soccer-1x2-lift](./soccer-1x2-lift.md) · Paper: [paper-bet-autonomy-status](./paper-bet-autonomy-status.md)
 
-Raw: [`../internal/sims/sports-unbound-exhaustion/`](../internal/sims/sports-unbound-exhaustion/) · Runner: `run_unbound.py`
+Raw: [`../internal/sims/sports-unbound-exhaustion/`](../internal/sims/sports-unbound-exhaustion/) · Wave1: `run_unbound.py` · Wave2: `run_unbound_wave2.py` · [`wave2/`](../internal/sims/sports-unbound-exhaustion/wave2/)
 
 Preference unlock: **no method ceiling** (basic → most advanced / undiscovered) under £0 only — this pass invents **past** the Dec 1 DONE / WAIT map without re-opening tipster edges or paid feeds.
 
@@ -204,6 +204,102 @@ _model estimate — IDeFuuZe Lab research output. Not tipster advice; no auto-wa
 
 ---
 
-## EXHAUST_DONE
+## EXHAUST_DONE (wave 1)
 
-Unbound sports inventing past the prior DONE map is **complete** for this cloud pass: families listed above are scored or hard-stopped under £0. Nothing new clears the paper bar. Return to **WAIT_ON_PAPER** (NBA).
+Unbound sports inventing past the prior DONE map is **complete** for wave 1: families listed above are scored or hard-stopped under £0. Nothing new clears the paper bar. Catakid NBA daemon left alone.
+
+---
+
+## Wave 2 — further NEW families (`2026-10-27T00:32:04Z`)
+
+Overnight continuation under the unbound ceiling. **No overlap re-litigation** of wave-1 levers. Still £0 · train-frozen WF · no OOS peek · **Catakid NBA daemon untouched**.
+
+### Wave-2 verdict
+
+**EXHAUST_WAVE2_DONE.** Fourteen additional families scored. **Zero NEW paper enables.** NHL/MLB ATS “dual-clear” numbers are **STRUCTURAL_HOLD** (always-dog also clears; model picks dog ≈97% on NHL OOS — puck/run-line ceiling from [big-four-data-maxout](./big-four-data-maxout.md)). Soccer OU/DNB fail dual or refuse as book-fav. Racing fade is process-only (no place/lay price). Shannon ATS fails. Rest/QB/personnel filters fail dual-clear.
+
+| Label | Wave 2 |
+| --- | --- |
+| **NEW_SCORED** | season regime · anti-martingale · loss-press · bootstrap CI · RLM ex-post slices · month structure · Shannon ATS · NHL/MLB ATS honesty · NBA rest ATS · NFL QB/personnel ATS · soccer OU 2.5 multi-league · soccer DNB book · horse short-fav fade process |
+| **STRUCTURAL_HOLD** | NHL/MLB ATS model≈always-dog |
+| **TRIED_FAIL** | Shannon · NBA rest · NFL qb/pers · soccer OU · soccer DNB dual · loss/anti progressions as enable |
+| **PAPER_ENABLE** | **none** |
+| **Catakid** | **untouched** |
+
+### 10. NBA locked-selection structure (NEW)
+
+| Lever | Result | Verdict |
+| --- | --- | --- |
+| Early season (Oct–Jan) flat £5 | n=216 · end £84.50 · DD £105 | Weak vs late |
+| Late season (Feb+) flat £5 | n=153 · end £134.50 · DD £77 | Better end — **OPS_NOTE** only |
+| Anti-martingale win-press | end £125.72 · DD **£202** | Worse DD — **TRIED_FAIL** as stake mode |
+| Loss-press cap 4× | end £145.75 · DD **£317** | Pathological DD — **TRIED_FAIL** |
+| Bootstrap weekend flat (400 resamples) | point £192 · p05 **£2.25** · p50 £185 · frac&lt;£70 **23.5%** | Weekend point estimate **fragile** — honesty meta |
+| RLM ex-post (−CLV vs +CLV slices) | against end £1.25 · with £80.50 | Ex-post only (**NEVER** as same-game gate) |
+| Month structure | Mar best (£163) · Oct worst (£47) | Thin months — no enable |
+
+### 11. Shannon / fortune stake on NBA ATS (NEW)
+
+Train-frozen edge τ + Shannon fraction on `p_home_cover` edge; OOS once.
+
+| Best train | OOS end | OOS cover | Dual? |
+| --- | ---: | ---: | :---: |
+| τ=0.08 · frac=0.25 | £24.81 | 50.3% | **no** |
+
+### 12. NHL / MLB ATS honesty (NEW desks vs wave-1 NFL/NBA)
+
+| Desk | Train-frozen best | Dual numbers? | Paper? |
+| --- | --- | :---: | --- |
+| **NHL** | model τ=0.0 (≈65% cover) | looks green | **STRUCTURAL_HOLD** — always-dog also dual-clears; model dog-pick rate OOS **97.3%** |
+| **MLB** | model (run-line) | always-dog also dual-clears | **STRUCTURAL_HOLD** — same ±1.5 base-rate ceiling |
+
+### 13. NBA rest_diff / NFL QB+personnel ATS (NEW filters)
+
+| Family | Best train | OOS | Dual? |
+| --- | --- | --- | :---: |
+| NBA rest_home_plus τ=0.08 | cover 52.6% · end £88.64 | cover 48.2% · end £3.18 | **no** |
+| NFL model τ=0.08 (qb/pers modes lost train) | train fail | OOS 54.7% / £222 | **no** (train fails) |
+
+### 14. Soccer OU 2.5 multi-league + DNB book (NEW)
+
+FD free: E0/SP1/D1/I1/F1 · n_OU=**4031**.
+
+| Method | Train-frozen | OOS | Dual? |
+| --- | --- | --- | :---: |
+| Rolling over-rate → **under** τ=0.52 · min_dec 1.7 | end £90.40 · win 49.0% | end £2.25 · win 48.3% | **no** |
+| Book-fav **DNB** (no model) | train fails dual | OOS end £279.87 (fav win% high — not +EV invent) | **no** enable (refuse book-fav) |
+
+Soccer paper stays **OFF**.
+
+### 15. Horse short-fav fade process (NEW)
+
+| Filter | Train fav_win − SP_implied | OOS | Bankroll paper? |
+| --- | ---: | ---: | --- |
+| field≥8 · fav_dec≤2.5 | **−17.5 pp** | **−13.4 pp** | **HARD STOP** — no free place/lay price (prior map) |
+
+Signal direction holds OOS as **process only** — not a Catakid method.
+
+### Wave-2 paper decision
+
+| Action | Detail |
+| --- | --- |
+| **NEW enables** | **none** |
+| **Catakid NBA daemon** | **left alone** |
+| **Structural refusals** | NHL/MLB ATS dog illusion |
+| **Dec 1** | Still wait on NBA paper settles |
+
+### Wave-2 honesty
+
+| Label | Value |
+| --- | --- |
+| synthetic | **false** |
+| beats_book | **false** |
+| OOS peek | **false** |
+| catakid | **untouched** |
+| cost | **£0** |
+
+---
+
+## EXHAUST_WAVE2_DONE
+
+Wave 2 unbound inventing is complete for this overnight slice. No new method clears a non-structural paper bar. Keep **WAIT_ON_PAPER** (NBA).

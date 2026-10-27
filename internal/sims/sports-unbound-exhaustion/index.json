@@ -31,5 +31,32 @@
       "action": "OPS_NOTE_ONLY"
     }
   ],
-  "verdict": "EXHAUST_DONE \u2014 no NEW paper enables; ops notes only; wait on NBA paper"
+  "verdict": "EXHAUST_DONE \u2014 no NEW paper enables; ops notes only; wait on NBA paper",
+  "wave2": {
+    "generated_at": "2026-10-27T00:32:04Z",
+    "wave": 2,
+    "families_scored": [
+      "nba_season_regime",
+      "anti_martingale",
+      "loss_press",
+      "bootstrap_weekend",
+      "rlm_proxy",
+      "month_structure",
+      "shannon_ats",
+      "nhl_ats",
+      "mlb_ats",
+      "nba_rest_ats",
+      "nfl_qb_pers_ats",
+      "soccer_ou25",
+      "soccer_dnb_book",
+      "racing_fade_fav_process"
+    ],
+    "paper_enable_count": 0,
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false,
+    "verdict": "EXHAUST_WAVE2_DONE",
+    "result": "wave2/result.json"
+  },
+  "updated_at": "2026-10-27T00:32:04Z"
 }
