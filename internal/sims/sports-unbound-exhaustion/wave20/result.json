@@ -1,0 +1,70 @@
+{
+  "family_set": "wave20_nfl_ats_spread_bands",
+  "best": {
+    "clears_ats_proxy": true,
+    "params": {
+      "band": [
+        10,
+        14
+      ],
+      "min_edge": 0.06
+    },
+    "n_train": 248,
+    "n_oos": 97,
+    "train": {
+      "n": 248,
+      "win_pct": 0.5725806451612904,
+      "end": 195.4545,
+      "max_dd": 38.6364,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 97,
+      "win_pct": 0.5567010309278351,
+      "end": 110.4545,
+      "max_dd": 39.5455,
+      "bust": false,
+      "clears_draft": true
+    }
+  },
+  "paper_enables": [
+    {
+      "family": "wave20_nfl_ats_spread_bands",
+      "params": {
+        "band": [
+          10,
+          14
+        ],
+        "min_edge": 0.06
+      },
+      "clears_ats_proxy": true,
+      "clears_dual_draft": null
+    }
+  ],
+  "note": "NFL ATS band \u2014 enable only if clears_ats_proxy",
+  "generated_at": "2026-10-27T00:48:59Z",
+  "wave": 20,
+  "paper_decision": {
+    "paper_enable": [
+      {
+        "family": "wave20_nfl_ats_spread_bands",
+        "params": {
+          "band": "\u2026",
+          "min_edge": "\u2026"
+        },
+        "clears_ats_proxy": true,
+        "clears_dual_draft": null
+      }
+    ],
+    "catakid": "untouched",
+    "beats_book": false
+  },
+  "honesty": {
+    "always_dog_oos_clears": false,
+    "always_dog_oos_win_pct": 0.4948,
+    "always_home_oos_win_pct": 0.5773,
+    "model_oos_win_pct": 0.5567,
+    "verdict": "KEEP enable \u2014 always_dog fails OOS dual; model clears train+OOS ATS proxy on |spread| 10\u201314 \u00d7 edge\u22650.06"
+  }
+}

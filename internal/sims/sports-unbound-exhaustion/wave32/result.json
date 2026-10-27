@@ -1,0 +1,38 @@
+{
+  "family_set": "wave32_kickoff_under",
+  "best": {
+    "params": {
+      "h0": 20,
+      "h1": 23
+    },
+    "n_train": 414,
+    "n_oos": 1885,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 414,
+      "win_pct": 0.5096618357487923,
+      "end": 84.8,
+      "max_dd": 91.5,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 242,
+      "win_pct": 0.4793388429752066,
+      "end": 2.95,
+      "max_dd": 103.05,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n": 19292,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:49:23Z",
+  "wave": 32,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

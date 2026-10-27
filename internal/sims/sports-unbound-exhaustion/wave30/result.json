@@ -1,0 +1,38 @@
+{
+  "family_set": "wave30_poisson_lambda_ou",
+  "best": {
+    "params": {
+      "side": "over",
+      "thr": 3.3
+    },
+    "n_train": 862,
+    "n_oos": 3544,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 172,
+      "win_pct": 0.5813953488372093,
+      "end": 4.65,
+      "max_dd": 81.0,
+      "bust": false,
+      "clears_draft": false
+    },
+    "oos": {
+      "n": 189,
+      "win_pct": 0.5396825396825397,
+      "end": 1.85,
+      "max_dd": 87.0,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n": 36342,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:49:20Z",
+  "wave": 30,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

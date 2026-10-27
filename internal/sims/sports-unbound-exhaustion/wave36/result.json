@@ -1,0 +1,37 @@
+{
+  "family_set": "wave36_overround_tighten_home",
+  "best": {
+    "params": {
+      "min_delta": 0.02
+    },
+    "n_train": 82,
+    "n_oos": 218,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 82,
+      "win_pct": 0.4878048780487805,
+      "end": 84.85,
+      "max_dd": 40.8,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 49,
+      "win_pct": 0.3877551020408163,
+      "end": 3.75,
+      "max_dd": 76.25,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n": 19272,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:49:30Z",
+  "wave": 36,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "family_set": "wave37_nfl_qb_clean_ats",
+  "best": {
+    "clears_ats_proxy": false,
+    "params": {
+      "mode": "qb_flag",
+      "min_edge": 0.04
+    },
+    "n_train": 224,
+    "n_oos": 187,
+    "train": {
+      "n": 201,
+      "win_pct": 0.48258706467661694,
+      "end": 0.9091,
+      "max_dd": 106.8182,
+      "bust": false,
+      "clears_draft": false
+    },
+    "oos": {
+      "n": 187,
+      "win_pct": 0.49732620320855614,
+      "end": 32.7273,
+      "max_dd": 80.0,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "paper_enables": [],
+  "generated_at": "2026-10-27T00:49:32Z",
+  "wave": 37,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

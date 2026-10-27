@@ -1,0 +1,37 @@
+{
+  "family_set": "wave45_nba_resid_bands",
+  "best": {
+    "clears_ats_proxy": false,
+    "params": {
+      "lo": 2,
+      "hi": 3,
+      "min_edge": 0.08
+    },
+    "n_train": 196,
+    "n_oos": 324,
+    "train": {
+      "n": 196,
+      "win_pct": 0.5357142857142857,
+      "end": 102.2727,
+      "max_dd": 69.0909,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 203,
+      "win_pct": 0.4827586206896552,
+      "end": 0.4545,
+      "max_dd": 95.0,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "paper_enables": [],
+  "generated_at": "2026-10-27T00:53:02Z",
+  "wave": 45,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "family_set": "wave33_nfl_ats_month",
+  "best": {
+    "clears_ats_proxy": true,
+    "params": {
+      "months": [
+        9
+      ],
+      "min_edge": 0.08
+    },
+    "n_train": 332,
+    "n_oos": 142,
+    "train": {
+      "n": 332,
+      "win_pct": 0.5391566265060241,
+      "end": 128.6364,
+      "max_dd": 90.0,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 142,
+      "win_pct": 0.5422535211267606,
+      "end": 105.0,
+      "max_dd": 50.4545,
+      "bust": false,
+      "clears_draft": true
+    }
+  },
+  "paper_enables": [],
+  "generated_at": "2026-10-27T00:49:25Z",
+  "wave": 33,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  },
+  "structural_hold": true,
+  "honesty": {
+    "always_dog_oos_clears": true,
+    "always_dog_oos_win_pct": 0.5845,
+    "model_oos_win_pct": 0.5423,
+    "verdict": "STRUCTURAL_HOLD \u2014 September\u00d7edge slice is dog-dominated; revoke enable"
+  }
+}

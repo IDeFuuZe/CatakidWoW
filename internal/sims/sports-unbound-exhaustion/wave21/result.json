@@ -1,0 +1,39 @@
+{
+  "family_set": "wave21_nba_rest_extreme_ats",
+  "best": {
+    "clears_ats_proxy": false,
+    "params": {
+      "mode": "b2b_home",
+      "thr": -2,
+      "min_edge": 0.03
+    },
+    "n_train": 89,
+    "n_oos": 195,
+    "train": {
+      "n": 89,
+      "win_pct": 0.550561797752809,
+      "end": 102.7273,
+      "max_dd": 26.3636,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 115,
+      "win_pct": 0.45217391304347826,
+      "end": 1.3636,
+      "max_dd": 98.6364,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "paper_enables": [],
+  "note": "ATS filter on locked path cousin \u2014 no Catakid flip; enable only if clears (checked below)",
+  "would_clear": false,
+  "generated_at": "2026-10-27T00:49:01Z",
+  "wave": 21,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

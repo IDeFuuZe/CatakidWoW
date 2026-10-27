@@ -1,0 +1,38 @@
+{
+  "family_set": "wave19_soccer_ah_home_settle",
+  "best": {
+    "params": {
+      "side": "fav",
+      "max_abs_line": 2.0
+    },
+    "n_train": 1142,
+    "n_oos": 3654,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 1142,
+      "win_pct": 0.542907180385289,
+      "end": 340.1,
+      "max_dd": 105.85,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 1432,
+      "win_pct": 0.5167597765363129,
+      "end": 4.4,
+      "max_dd": 136.8,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n": 18025,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:48:56Z",
+  "wave": 19,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

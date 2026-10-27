@@ -1,0 +1,37 @@
+{
+  "family_set": "wave22_max_under_shop",
+  "best": {
+    "params": {
+      "min_dec": 0.05
+    },
+    "n_train": 3462,
+    "n_oos": 10119,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 115,
+      "win_pct": 0.4,
+      "end": 4.3,
+      "max_dd": 83.25,
+      "bust": false,
+      "clears_draft": false
+    },
+    "oos": {
+      "n": 1358,
+      "win_pct": 0.4889543446244477,
+      "end": 4.7,
+      "max_dd": 337.7,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n": 18816,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:49:04Z",
+  "wave": 22,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

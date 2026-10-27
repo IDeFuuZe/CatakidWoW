@@ -1,0 +1,204 @@
+{
+  "family_set": "wave38_league_under_specialty",
+  "leagues": {
+    "E1": {
+      "train": {
+        "n": 205,
+        "win_pct": 0.4878048780487805,
+        "end": 4.7,
+        "max_dd": 94.9,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 108,
+        "win_pct": 0.5,
+        "end": 4.5,
+        "max_dd": 79.1,
+        "bust": false,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false,
+      "n_train": 1385,
+      "n_oos": 1927
+    },
+    "N1": {
+      "train": {
+        "n": 52,
+        "win_pct": 0.28846153846153844,
+        "end": 0.6,
+        "max_dd": 83.4,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 165,
+        "win_pct": 0.44242424242424244,
+        "end": 3.45,
+        "max_dd": 114.55,
+        "bust": false,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false,
+      "n_train": 700,
+      "n_oos": 756
+    },
+    "E0": {
+      "train": {
+        "n": 151,
+        "win_pct": 0.4370860927152318,
+        "end": 4.6,
+        "max_dd": 80.75,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 206,
+        "win_pct": 0.4563106796116505,
+        "end": 2.5,
+        "max_dd": 127.6,
+        "bust": false,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false,
+      "n_train": 943,
+      "n_oos": 1337
+    },
+    "SC0": {
+      "train": {
+        "n": 348,
+        "win_pct": 0.5632183908045977,
+        "end": 139.85,
+        "max_dd": 76.6,
+        "bust": false,
+        "clears_draft": true
+      },
+      "oos": {
+        "n": 163,
+        "win_pct": 0.50920245398773,
+        "end": 2.45,
+        "max_dd": 110.45,
+        "bust": false,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false,
+      "n_train": 348,
+      "n_oos": 564
+    },
+    "F1": {
+      "train": {
+        "n": 188,
+        "win_pct": 0.48936170212765956,
+        "end": 52.1,
+        "max_dd": 80.2,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 221,
+        "win_pct": 0.4841628959276018,
+        "end": 4.2,
+        "max_dd": 190.55,
+        "bust": false,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false,
+      "n_train": 188,
+      "n_oos": 1184
+    },
+    "D1": {
+      "train": {
+        "n": 145,
+        "win_pct": 0.4068965517241379,
+        "end": 4.4,
+        "max_dd": 96.35,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 56,
+        "win_pct": 0.35714285714285715,
+        "end": 1.1,
+        "max_dd": 78.9,
+        "bust": false,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false,
+      "n_train": 153,
+      "n_oos": 1071
+    },
+    "SP1": {
+      "train": {
+        "n": 182,
+        "win_pct": 0.5494505494505495,
+        "end": 47.15,
+        "max_dd": 78.05,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 270,
+        "win_pct": 0.5259259259259259,
+        "end": 0.4,
+        "max_dd": 116.5,
+        "bust": false,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false,
+      "n_train": 182,
+      "n_oos": 1338
+    },
+    "I1": {
+      "train": {
+        "n": 42,
+        "win_pct": 0.2619047619047619,
+        "end": 2.0,
+        "max_dd": 78.0,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 1003,
+        "win_pct": 0.5124626121635095,
+        "end": 1.6,
+        "max_dd": 230.4,
+        "bust": false,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false,
+      "n_train": 189,
+      "n_oos": 1330
+    },
+    "G1": {
+      "train": {
+        "n": 70,
+        "win_pct": 0.4714285714285714,
+        "end": 4.5,
+        "max_dd": 83.0,
+        "bust": false,
+        "clears_draft": false
+      },
+      "oos": {
+        "n": 416,
+        "win_pct": 0.5769230769230769,
+        "end": 3.7,
+        "max_dd": 113.1,
+        "bust": false,
+        "clears_draft": false
+      },
+      "clears_dual_draft": false,
+      "n_train": 102,
+      "n_oos": 618
+    }
+  },
+  "any_clear": false,
+  "paper_enables": [],
+  "policy": "soccer OFF even if dual draft",
+  "generated_at": "2026-10-27T00:49:34Z",
+  "wave": 38,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

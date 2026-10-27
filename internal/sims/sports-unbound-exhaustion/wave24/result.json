@@ -1,0 +1,39 @@
+{
+  "family_set": "wave24_nhl_rest_extreme_ats",
+  "best": {
+    "clears_ats_proxy": true,
+    "params": {
+      "mode": "home_rested",
+      "thr": 1,
+      "min_edge": 0.08
+    },
+    "n_train": 337,
+    "n_oos": 1133,
+    "train": {
+      "n": 337,
+      "win_pct": 0.6884272997032641,
+      "end": 609.5455,
+      "max_dd": 35.4545,
+      "bust": false,
+      "clears_draft": true
+    },
+    "oos": {
+      "n": 1133,
+      "win_pct": 0.6451897616946161,
+      "end": 1392.7273,
+      "max_dd": 52.2727,
+      "bust": false,
+      "clears_draft": true
+    }
+  },
+  "paper_enables": [],
+  "note": "STRUCTURAL_HOLD risk if dog-dominated",
+  "would_clear": true,
+  "generated_at": "2026-10-27T00:49:08Z",
+  "wave": 24,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

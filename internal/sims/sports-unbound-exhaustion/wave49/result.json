@@ -1,0 +1,35 @@
+{
+  "family_set": "wave49_pickem_ah_home",
+  "best": {
+    "params": {},
+    "n_train": 1675,
+    "n_oos": 6150,
+    "clears_dual_draft": false,
+    "train": {
+      "n": 91,
+      "win_pct": 0.42857142857142855,
+      "end": 2.85,
+      "max_dd": 77.85,
+      "bust": false,
+      "clears_draft": false
+    },
+    "oos": {
+      "n": 494,
+      "win_pct": 0.5,
+      "end": 0.0,
+      "max_dd": 156.15,
+      "bust": false,
+      "clears_draft": false
+    }
+  },
+  "n": 7825,
+  "paper_enables": [],
+  "policy": "soccer OFF",
+  "generated_at": "2026-10-27T00:53:08Z",
+  "wave": 49,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-10-27T00:48:59Z",
+  "wave": 20,
+  "title": "NFL ATS spread bands",
+  "family_set": "wave20_nfl_ats_spread_bands",
+  "paper_enable_count": 1,
+  "paper_enable": [
+    {
+      "family": "wave20_nfl_ats_spread_bands",
+      "params": {
+        "band": [
+          10,
+          14
+        ],
+        "min_edge": 0.06
+      },
+      "clears_ats_proxy": true,
+      "clears_dual_draft": null
+    }
+  ],
+  "verdict": "EXHAUST_WAVE20_DONE",
+  "catakid": "untouched",
+  "beats_book": false
+}

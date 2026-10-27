@@ -1,0 +1,53 @@
+{
+  "family_set": "wave43_exhaustion_reaudit",
+  "scored_free_new_this_extension": [
+    "under_from_low_sot",
+    "ah_home_settle",
+    "nfl_ats_spread_bands",
+    "nba_rest_extreme",
+    "max_under_shop",
+    "mlb_fav_honesty",
+    "nhl_rest_extreme",
+    "redcard_next",
+    "ht_prior_under",
+    "nba_clv_gate",
+    "nfl_totals_line_bands",
+    "loss_streak",
+    "poisson_lambda_ou",
+    "ah_clv",
+    "kickoff_under",
+    "nfl_ats_month",
+    "btts_form_draw",
+    "nba_low_sigma",
+    "overround_tighten",
+    "nfl_qb_clean",
+    "league_under",
+    "nba_ats_weekday",
+    "under_clv",
+    "mlb_rest",
+    "maxah_shop"
+  ],
+  "still_blocked_\u00a30": [
+    "optical tracking / paid FTN",
+    "multi-book live Odds API / steam",
+    "bookie login automation",
+    "NCAAB/NCAAF Odds key historical closes",
+    "tennis-data.co.uk 403",
+    "HT 1X2 / corner / BTTS / place SP odds",
+    "NBA ML p_cal dump for Platt/\u215b-Kelly",
+    "NHL/MLB game totals closes",
+    "Valorant/CS historical ML closes join",
+    "arXiv AID_SPORTS transfer (sibling lane)",
+    "in-play Markov without priced closes"
+  ],
+  "truly_exhausted_free_sim_lane": true,
+  "note": "All remaining free angles on FD+maxout+CLV join now scored; leftover needs paid/login/missing odds",
+  "paper_enables": [],
+  "generated_at": "2026-10-27T00:49:45Z",
+  "wave": 43,
+  "paper_decision": {
+    "paper_enable": [],
+    "catakid": "untouched",
+    "beats_book": false
+  }
+}
