@@ -1,0 +1,26 @@
+{
+  "status": "SKIP_LIVE",
+  "n_phase0_scored_cum": 1584,
+  "n_skip": 1584,
+  "n_skip_hard": 1584,
+  "n_queue": 0,
+  "n_fulltext_queue": 0,
+  "n_uncertain_fulltext": 0,
+  "n_audit_marked": 19,
+  "phase0_throughput_per_hour_est": 38543.4,
+  "fulltext_throughput_per_hour_baseline": 100.0,
+  "phase0_vs_fulltext_speedup_est": 385.4,
+  "batch_n": 1384,
+  "batch_elapsed_s": 129.3,
+  "next_pointer": {
+    "category_index": 0,
+    "category": "astro-ph",
+    "yyyymm": "199409",
+    "start_index": 100
+  },
+  "fulltext_queue_pending": 0,
+  "pipeline_order": "phase0_lock_order_then_queue_high_transfer",
+  "updated_at": "2026-10-27T08:38:53Z",
+  "cloud_pid": 3245,
+  "doc": "docs/arxiv-census-skip-filter.md"
+}
